@@ -6,11 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		P516388wI3diVYgOfmTfaq0/NX0=
-		</data>
-		<key>FocusTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
-		<data>
-		FAbEvxZq1TjQFS0EOo/NZ9MFW08=
+		RFAE20A8g+zhwyatRO707h0Ee44=
 		</data>
 		<key>Headers/IDCaptureLite-Swift.h</key>
 		<data>
@@ -78,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4wldECkGJDKvVlwU/6eVCvpPnXI=
+		6ELZbLq3HFqQwmhUu96l+tnZRjk=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -111,14 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sPfmwqKKwqCxXjhY3dTRQvMGi3xSKPYYkQ4zrjN98ZE=
-			</data>
-		</dict>
-		<key>FocusTrainingModel_UNIQUE_KEY_ID_5024_20260305020917.tflite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R/stkcJWN3FpOPJTwE/9gTGFEZHOaTmkCdAwsS4SgmI=
+			vNPihwpIMLcPNJ43cqL3Uk+NqRHVJR+mDSovqbIIMo0=
 			</data>
 		</dict>
 		<key>Headers/IDCaptureLite-Swift.h</key>

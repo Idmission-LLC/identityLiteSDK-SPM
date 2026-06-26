@@ -516,6 +516,11 @@ public struct BiometricVerifyRequestData : Swift.Encodable {
   public init(selfie: Swift.String, fingerPrintData: IDentityLiteSDK.FingerPrintData? = nil, voiceData: Swift.String? = nil, videoData: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension Swift.String {
+  public var isExpired: Swift.Bool {
+    get
+  }
+}
 public struct AdditionalCustomerWFlagCommonData : Swift.Encodable {
   public enum ManualReviewRequired : Swift.String, Swift.Encodable {
     case yes
@@ -1440,6 +1445,7 @@ public struct PersonalCustomerVerifyResponseData : Swift.Codable {
 }
 public struct TrainingModelDownloadResponse : Swift.Codable {
   public var status: IDentityLiteSDK.StatusData?
+  public var publicKey: Swift.String
   public var modelTypes: [IDentityLiteSDK.TrainingModelDetails]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
