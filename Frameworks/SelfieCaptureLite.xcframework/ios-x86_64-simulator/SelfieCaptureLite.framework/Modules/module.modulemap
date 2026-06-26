@@ -1,0 +1,4 @@
+framework module SelfieCaptureLite {
+  header "SelfieCaptureLite-Swift.h"
+  requires objc
+}

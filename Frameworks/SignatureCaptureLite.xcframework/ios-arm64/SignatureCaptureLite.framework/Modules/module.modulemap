@@ -1,0 +1,11 @@
+framework module SignatureCaptureLite {
+  umbrella header "SignatureCaptureLite.h"
+  export *
+
+  module * { export * }
+}
+
+module SignatureCaptureLite.Swift {
+  header "SignatureCaptureLite-Swift.h"
+  requires objc
+}

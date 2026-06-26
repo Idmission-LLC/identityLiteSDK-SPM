@@ -1,0 +1,249 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-lite/Build/Products/Release-iphoneos/FingerPrintCaptureLite.framework/FingerPrintCaptureLite'
+relocations:
+  - { offset: 0x7DA3F, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureLiteVersionString, symObjAddr: 0x0, symBinAddr: 0x310910, symSize: 0x0 }
+  - { offset: 0x7DA74, size: 0x8, addend: 0x0, symName: _FingerPrintCaptureLiteVersionNumber, symObjAddr: 0x40, symBinAddr: 0x310950, symSize: 0x0 }
+  - { offset: 0x8C8D5, size: 0x8, addend: 0x0, symName: __ZNSt3__112__destroy_atB8ne180100IN2cv3MatELi0EEEvPT_, symObjAddr: 0x7CE4, symBinAddr: 0xFCE4, symSize: 0x90 }
+  - { offset: 0x90EE2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x16C }
+  - { offset: 0x90F25, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController didReceiveMemoryWarning]', symObjAddr: 0x16C, symBinAddr: 0x816C, symSize: 0x34 }
+  - { offset: 0x90F58, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController initVariables]', symObjAddr: 0x1A0, symBinAddr: 0x81A0, symSize: 0x6A0 }
+  - { offset: 0x90FC2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController initTensorflowFingerprint]', symObjAddr: 0x840, symBinAddr: 0x8840, symSize: 0x3C }
+  - { offset: 0x90FF5, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController initialize_UI]', symObjAddr: 0x87C, symBinAddr: 0x887C, symSize: 0x6E4 }
+  - { offset: 0x91048, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController backButtonPressed:]', symObjAddr: 0xF60, symBinAddr: 0x8F60, symSize: 0x58 }
+  - { offset: 0x91089, size: 0x8, addend: 0x0, symName: '___51-[FingerDetectionViewController backButtonPressed:]_block_invoke', symObjAddr: 0xFB8, symBinAddr: 0x8FB8, symSize: 0x94 }
+  - { offset: 0x910E3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x104C, symBinAddr: 0x904C, symSize: 0x8 }
+  - { offset: 0x9110A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x1054, symBinAddr: 0x9054, symSize: 0x8 }
+  - { offset: 0x914D1, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController processFrame:actualImage:]', symObjAddr: 0x105C, symBinAddr: 0x905C, symSize: 0x7E0 }
+  - { offset: 0x920AB, size: 0x8, addend: 0x0, symName: __ZN2cv3MatD1Ev, symObjAddr: 0x183C, symBinAddr: 0x983C, symSize: 0x94 }
+  - { offset: 0x9212D, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController detectFingerprintUsingTensorflow:portraitMat:]', symObjAddr: 0x18E0, symBinAddr: 0x98E0, symSize: 0x2BC }
+  - { offset: 0x923FF, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController formatResult:outputClassesFloatArray:outputScoresFloatArray:resultCount:actualImage:portraitMat:]', symObjAddr: 0x1B9C, symBinAddr: 0x9B9C, symSize: 0xD78 }
+  - { offset: 0x933BD, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController getFingerInsideRectCount:]', symObjAddr: 0x2914, symBinAddr: 0xA914, symSize: 0x288 }
+  - { offset: 0x934CC, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController isHandPositionCorrect:]', symObjAddr: 0x2B9C, symBinAddr: 0xAB9C, symSize: 0x220 }
+  - { offset: 0x9358E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController isFocusCorrect:]', symObjAddr: 0x2DBC, symBinAddr: 0xADBC, symSize: 0x21C }
+  - { offset: 0x93668, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController captureHighResolutionImageAndProcess]', symObjAddr: 0x2FD8, symBinAddr: 0xAFD8, symSize: 0x120 }
+  - { offset: 0x936AD, size: 0x8, addend: 0x0, symName: '___69-[FingerDetectionViewController captureHighResolutionImageAndProcess]_block_invoke', symObjAddr: 0x30F8, symBinAddr: 0xB0F8, symSize: 0x37C }
+  - { offset: 0x939A2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController keepTheBestFingerprint:]', symObjAddr: 0x3474, symBinAddr: 0xB474, symSize: 0x148 }
+  - { offset: 0x93A30, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController sendFingerprintDataInResponse:]', symObjAddr: 0x35BC, symBinAddr: 0xB5BC, symSize: 0x74C }
+  - { offset: 0x9406A, size: 0x8, addend: 0x0, symName: '___63-[FingerDetectionViewController sendFingerprintDataInResponse:]_block_invoke', symObjAddr: 0x3D08, symBinAddr: 0xBD08, symSize: 0x68 }
+  - { offset: 0x940BD, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s, symObjAddr: 0x3D70, symBinAddr: 0xBD70, symSize: 0x28 }
+  - { offset: 0x940E6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x3D98, symBinAddr: 0xBD98, symSize: 0x28 }
+  - { offset: 0x94105, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController updateFingerprintUI:]', symObjAddr: 0x3DC0, symBinAddr: 0xBDC0, symSize: 0x84 }
+  - { offset: 0x941E7, size: 0x8, addend: 0x0, symName: '___53-[FingerDetectionViewController updateFingerprintUI:]_block_invoke', symObjAddr: 0x3E44, symBinAddr: 0xBE44, symSize: 0x40 }
+  - { offset: 0x9423A, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController updateHandStatus:]', symObjAddr: 0x3E84, symBinAddr: 0xBE84, symSize: 0x5C }
+  - { offset: 0x94295, size: 0x8, addend: 0x0, symName: '___50-[FingerDetectionViewController updateHandStatus:]_block_invoke', symObjAddr: 0x3EE0, symBinAddr: 0xBEE0, symSize: 0x3A8 }
+  - { offset: 0x94322, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController colorwithHexString:alpha:]', symObjAddr: 0x4288, symBinAddr: 0xC288, symSize: 0x10C }
+  - { offset: 0x943AB, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController getFloatArrayString:count:]', symObjAddr: 0x4394, symBinAddr: 0xC394, symSize: 0xEC }
+  - { offset: 0x9442A, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController drawRectangleOnImage:rect:]', symObjAddr: 0x4480, symBinAddr: 0xC480, symSize: 0xF4 }
+  - { offset: 0x94528, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController imageWithImage:scaledToSize:]', symObjAddr: 0x4574, symBinAddr: 0xC574, symSize: 0xAC }
+  - { offset: 0x946F0, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController focusScore:]', symObjAddr: 0x4620, symBinAddr: 0xC620, symSize: 0x26C }
+  - { offset: 0x94FDE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController convertMatToBase64ByRotatingCorrectly:]', symObjAddr: 0x488C, symBinAddr: 0xC88C, symSize: 0x2A8 }
+  - { offset: 0x95277, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController cropUIImageByGivenCGRect:toRect:]', symObjAddr: 0x4B34, symBinAddr: 0xCB34, symSize: 0xC4 }
+  - { offset: 0x95335, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController addBufferToRect:xBuf:yBuf:widthBuf:heightBuf:viewWidth:viewHeight:]', symObjAddr: 0x4BF8, symBinAddr: 0xCBF8, symSize: 0x8C }
+  - { offset: 0x95465, size: 0x8, addend: 0x0, symName: '+[FingerDetectionViewController retryCapture:fingerType:]', symObjAddr: 0x4C84, symBinAddr: 0xCC84, symSize: 0x4 }
+  - { offset: 0x954AF, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController processTipLocal:aggressiveness:]', symObjAddr: 0x4C88, symBinAddr: 0xCC88, symSize: 0x4A4 }
+  - { offset: 0x963B0, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController simulateInk:]', symObjAddr: 0x512C, symBinAddr: 0xD12C, symSize: 0x1E8 }
+  - { offset: 0x96C1E, size: 0x8, addend: 0x0, symName: __ZN2cv3PtrINS_5CLAHEEED2Ev, symObjAddr: 0x7E08, symBinAddr: 0xFE08, symSize: 0x54 }
+  - { offset: 0x97559, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController binarize:]', symObjAddr: 0x5314, symBinAddr: 0xD314, symSize: 0x136C }
+  - { offset: 0x9BE92, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIN2cv3MatENS_9allocatorIS2_EEE16__destroy_vectorclB8ne180100Ev, symObjAddr: 0x7C74, symBinAddr: 0xFC74, symSize: 0x70 }
+  - { offset: 0x9BFDF, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS0_IN2cv6Point_IiEENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorclB8ne180100Ev, symObjAddr: 0x7D74, symBinAddr: 0xFD74, symSize: 0x40 }
+  - { offset: 0x9C184, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController cleanPrint:aggressiveness:]', symObjAddr: 0x6680, symBinAddr: 0xE680, symSize: 0x968 }
+  - { offset: 0x9DE76, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController skeleton:]', symObjAddr: 0x6FE8, symBinAddr: 0xEFE8, symSize: 0x668 }
+  - { offset: 0x9F66F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController responseStatus]', symObjAddr: 0x7650, symBinAddr: 0xF650, symSize: 0x10 }
+  - { offset: 0x9F6A6, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setResponseStatus:]', symObjAddr: 0x7660, symBinAddr: 0xF660, symSize: 0x14 }
+  - { offset: 0x9F6E7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController delegate]', symObjAddr: 0x7674, symBinAddr: 0xF674, symSize: 0x10 }
+  - { offset: 0x9F71E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setDelegate:]', symObjAddr: 0x7684, symBinAddr: 0xF684, symSize: 0x14 }
+  - { offset: 0x9F75F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController resultDictionary]', symObjAddr: 0x7698, symBinAddr: 0xF698, symSize: 0x10 }
+  - { offset: 0x9F796, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setResultDictionary:]', symObjAddr: 0x76A8, symBinAddr: 0xF6A8, symSize: 0x14 }
+  - { offset: 0x9F7D7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController moveCloser]', symObjAddr: 0x76BC, symBinAddr: 0xF6BC, symSize: 0x10 }
+  - { offset: 0x9F80E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMoveCloser:]', symObjAddr: 0x76CC, symBinAddr: 0xF6CC, symSize: 0x14 }
+  - { offset: 0x9F84F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController moveAway]', symObjAddr: 0x76E0, symBinAddr: 0xF6E0, symSize: 0x10 }
+  - { offset: 0x9F886, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMoveAway:]', symObjAddr: 0x76F0, symBinAddr: 0xF6F0, symSize: 0x14 }
+  - { offset: 0x9F8C7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController incorrectHand]', symObjAddr: 0x7704, symBinAddr: 0xF704, symSize: 0x10 }
+  - { offset: 0x9F8FE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setIncorrectHand:]', symObjAddr: 0x7714, symBinAddr: 0xF714, symSize: 0x14 }
+  - { offset: 0x9F93F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController holdSteady]', symObjAddr: 0x7728, symBinAddr: 0xF728, symSize: 0x10 }
+  - { offset: 0x9F976, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setHoldSteady:]', symObjAddr: 0x7738, symBinAddr: 0xF738, symSize: 0x14 }
+  - { offset: 0x9F9B7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController capturingDetail]', symObjAddr: 0x774C, symBinAddr: 0xF74C, symSize: 0x10 }
+  - { offset: 0x9F9EE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCapturingDetail:]', symObjAddr: 0x775C, symBinAddr: 0xF75C, symSize: 0x14 }
+  - { offset: 0x9FA2F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController fingerTooClose]', symObjAddr: 0x7770, symBinAddr: 0xF770, symSize: 0x10 }
+  - { offset: 0x9FA66, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setFingerTooClose:]', symObjAddr: 0x7780, symBinAddr: 0xF780, symSize: 0x14 }
+  - { offset: 0x9FAA7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController fingerTooFar]', symObjAddr: 0x7794, symBinAddr: 0xF794, symSize: 0x10 }
+  - { offset: 0x9FADE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setFingerTooFar:]', symObjAddr: 0x77A4, symBinAddr: 0xF7A4, symSize: 0x14 }
+  - { offset: 0x9FB1F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController minIndexThrshold]', symObjAddr: 0x77B8, symBinAddr: 0xF7B8, symSize: 0x10 }
+  - { offset: 0x9FB56, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMinIndexThrshold:]', symObjAddr: 0x77C8, symBinAddr: 0xF7C8, symSize: 0x10 }
+  - { offset: 0x9FB93, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController minMiddleThrshold]', symObjAddr: 0x77D8, symBinAddr: 0xF7D8, symSize: 0x10 }
+  - { offset: 0x9FBCA, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMinMiddleThrshold:]', symObjAddr: 0x77E8, symBinAddr: 0xF7E8, symSize: 0x10 }
+  - { offset: 0x9FC07, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController minRingThrshold]', symObjAddr: 0x77F8, symBinAddr: 0xF7F8, symSize: 0x10 }
+  - { offset: 0x9FC3E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMinRingThrshold:]', symObjAddr: 0x7808, symBinAddr: 0xF808, symSize: 0x10 }
+  - { offset: 0x9FC7B, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController minBabyThrshold]', symObjAddr: 0x7818, symBinAddr: 0xF818, symSize: 0x10 }
+  - { offset: 0x9FCB2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMinBabyThrshold:]', symObjAddr: 0x7828, symBinAddr: 0xF828, symSize: 0x10 }
+  - { offset: 0x9FCEF, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController maxIndexThrshold]', symObjAddr: 0x7838, symBinAddr: 0xF838, symSize: 0x10 }
+  - { offset: 0x9FD26, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMaxIndexThrshold:]', symObjAddr: 0x7848, symBinAddr: 0xF848, symSize: 0x10 }
+  - { offset: 0x9FD63, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController maxMiddleThrshold]', symObjAddr: 0x7858, symBinAddr: 0xF858, symSize: 0x10 }
+  - { offset: 0x9FD9A, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMaxMiddleThrshold:]', symObjAddr: 0x7868, symBinAddr: 0xF868, symSize: 0x10 }
+  - { offset: 0x9FDD7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController maxRingThrshold]', symObjAddr: 0x7878, symBinAddr: 0xF878, symSize: 0x10 }
+  - { offset: 0x9FE0E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMaxRingThrshold:]', symObjAddr: 0x7888, symBinAddr: 0xF888, symSize: 0x10 }
+  - { offset: 0x9FE4B, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController maxBabyThrshold]', symObjAddr: 0x7898, symBinAddr: 0xF898, symSize: 0x10 }
+  - { offset: 0x9FE82, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setMaxBabyThrshold:]', symObjAddr: 0x78A8, symBinAddr: 0xF8A8, symSize: 0x10 }
+  - { offset: 0x9FEBF, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController cameraZoom]', symObjAddr: 0x78B8, symBinAddr: 0xF8B8, symSize: 0x10 }
+  - { offset: 0x9FEF4, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCameraZoom:]', symObjAddr: 0x78C8, symBinAddr: 0xF8C8, symSize: 0x10 }
+  - { offset: 0x9FF32, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController isCaptureLeftHand]', symObjAddr: 0x78D8, symBinAddr: 0xF8D8, symSize: 0x10 }
+  - { offset: 0x9FF69, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setIsCaptureLeftHand:]', symObjAddr: 0x78E8, symBinAddr: 0xF8E8, symSize: 0x10 }
+  - { offset: 0x9FFA4, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController isDebugEnabled]', symObjAddr: 0x78F8, symBinAddr: 0xF8F8, symSize: 0x10 }
+  - { offset: 0x9FFDB, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setIsDebugEnabled:]', symObjAddr: 0x7908, symBinAddr: 0xF908, symSize: 0x10 }
+  - { offset: 0xA0016, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController captureIndexFinger]', symObjAddr: 0x7918, symBinAddr: 0xF918, symSize: 0x10 }
+  - { offset: 0xA004D, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCaptureIndexFinger:]', symObjAddr: 0x7928, symBinAddr: 0xF928, symSize: 0x10 }
+  - { offset: 0xA0088, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController captureMiddleFinger]', symObjAddr: 0x7938, symBinAddr: 0xF938, symSize: 0x10 }
+  - { offset: 0xA00BF, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCaptureMiddleFinger:]', symObjAddr: 0x7948, symBinAddr: 0xF948, symSize: 0x10 }
+  - { offset: 0xA00FA, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController captureRingFinger]', symObjAddr: 0x7958, symBinAddr: 0xF958, symSize: 0x10 }
+  - { offset: 0xA0131, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCaptureRingFinger:]', symObjAddr: 0x7968, symBinAddr: 0xF968, symSize: 0x10 }
+  - { offset: 0xA016C, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController captureBabyFinger]', symObjAddr: 0x7978, symBinAddr: 0xF978, symSize: 0x10 }
+  - { offset: 0xA01A3, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setCaptureBabyFinger:]', symObjAddr: 0x7988, symBinAddr: 0xF988, symSize: 0x10 }
+  - { offset: 0xA01DE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController keepIndexFinger]', symObjAddr: 0x7998, symBinAddr: 0xF998, symSize: 0x10 }
+  - { offset: 0xA0215, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setKeepIndexFinger:]', symObjAddr: 0x79A8, symBinAddr: 0xF9A8, symSize: 0x10 }
+  - { offset: 0xA0250, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController keepMiddleFinger]', symObjAddr: 0x79B8, symBinAddr: 0xF9B8, symSize: 0x10 }
+  - { offset: 0xA0287, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setKeepMiddleFinger:]', symObjAddr: 0x79C8, symBinAddr: 0xF9C8, symSize: 0x10 }
+  - { offset: 0xA02C2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController keepRingFinger]', symObjAddr: 0x79D8, symBinAddr: 0xF9D8, symSize: 0x10 }
+  - { offset: 0xA02F9, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setKeepRingFinger:]', symObjAddr: 0x79E8, symBinAddr: 0xF9E8, symSize: 0x10 }
+  - { offset: 0xA0334, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController keepBaby]', symObjAddr: 0x79F8, symBinAddr: 0xF9F8, symSize: 0x10 }
+  - { offset: 0xA036B, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController setKeepBaby:]', symObjAddr: 0x7A08, symBinAddr: 0xFA08, symSize: 0x10 }
+  - { offset: 0xA03A6, size: 0x8, addend: 0x0, symName: '-[FingerDetectionViewController .cxx_destruct]', symObjAddr: 0x7A18, symBinAddr: 0xFA18, symSize: 0x25C }
+  - { offset: 0xA0514, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS0_IN2cv6Point_IiEENS_9allocatorIS3_EEEENS4_IS6_EEE7__clearB8ne180100Ev, symObjAddr: 0x7DB4, symBinAddr: 0xFDB4, symSize: 0x54 }
+  - { offset: 0xA3F14, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo initRoiFingerInfo:fingerRectInFrame:fingerRectInScreen:confidence:focus:startPosition:roi:]', symObjAddr: 0x0, symBinAddr: 0xFE5C, symSize: 0x268 }
+  - { offset: 0xA4D9D, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo initRoiFingerInfo:fingerRectInFrame:fingerRectInScreen:confidence:focus:startPosition:roi:]', symObjAddr: 0x0, symBinAddr: 0xFE5C, symSize: 0x268 }
+  - { offset: 0xA502C, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo label]', symObjAddr: 0x2FC, symBinAddr: 0x100C4, symSize: 0xC }
+  - { offset: 0xA5063, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setLabel:]', symObjAddr: 0x308, symBinAddr: 0x100D0, symSize: 0x8 }
+  - { offset: 0xA50A2, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo fingerRectInFrame]', symObjAddr: 0x310, symBinAddr: 0x100D8, symSize: 0x38 }
+  - { offset: 0xA50D9, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setFingerRectInFrame:]', symObjAddr: 0x348, symBinAddr: 0x10110, symSize: 0x38 }
+  - { offset: 0xA5119, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo fingerRectInScreen]', symObjAddr: 0x380, symBinAddr: 0x10148, symSize: 0x38 }
+  - { offset: 0xA5150, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setFingerRectInScreen:]', symObjAddr: 0x3B8, symBinAddr: 0x10180, symSize: 0x38 }
+  - { offset: 0xA5190, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo confidence]', symObjAddr: 0x3F0, symBinAddr: 0x101B8, symSize: 0x8 }
+  - { offset: 0xA51C5, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setConfidence:]', symObjAddr: 0x3F8, symBinAddr: 0x101C0, symSize: 0x8 }
+  - { offset: 0xA5203, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo focus]', symObjAddr: 0x400, symBinAddr: 0x101C8, symSize: 0x8 }
+  - { offset: 0xA5238, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setFocus:]', symObjAddr: 0x408, symBinAddr: 0x101D0, symSize: 0x8 }
+  - { offset: 0xA5276, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo startPosition]', symObjAddr: 0x410, symBinAddr: 0x101D8, symSize: 0x8 }
+  - { offset: 0xA52AB, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setStartPosition:]', symObjAddr: 0x418, symBinAddr: 0x101E0, symSize: 0x8 }
+  - { offset: 0xA52E9, size: 0x8, addend: 0x0, symName: ___copy_helper_atomic_property_, symObjAddr: 0x420, symBinAddr: 0x101E8, symSize: 0x74 }
+  - { offset: 0xA541D, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo roi]', symObjAddr: 0x494, symBinAddr: 0x1025C, symSize: 0x14 }
+  - { offset: 0xA547A, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x4A8, symBinAddr: 0x10270, symSize: 0x114 }
+  - { offset: 0xA54AC, size: 0x8, addend: 0x0, symName: ___assign_helper_atomic_property_, symObjAddr: 0x4A8, symBinAddr: 0x10270, symSize: 0x114 }
+  - { offset: 0xA555C, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo setRoi:]', symObjAddr: 0x5BC, symBinAddr: 0x10384, symSize: 0x14 }
+  - { offset: 0xA559D, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo .cxx_destruct]', symObjAddr: 0x5D0, symBinAddr: 0x10398, symSize: 0x98 }
+  - { offset: 0xA567B, size: 0x8, addend: 0x0, symName: '-[RoiFingerInfo .cxx_construct]', symObjAddr: 0x668, symBinAddr: 0x10430, symSize: 0x34 }
+  - { offset: 0xA7511, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x10464, symSize: 0x48 }
+  - { offset: 0xA8ABA, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController viewDidLoad]', symObjAddr: 0x0, symBinAddr: 0x10464, symSize: 0x48 }
+  - { offset: 0xA8AED, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController viewWillDisappear:]', symObjAddr: 0x48, symBinAddr: 0x104AC, symSize: 0x48 }
+  - { offset: 0xA8B30, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController didReceiveMemoryWarning]', symObjAddr: 0x90, symBinAddr: 0x104F4, symSize: 0x34 }
+  - { offset: 0xA8B63, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController setTorchOn:]', symObjAddr: 0xC4, symBinAddr: 0x10528, symSize: 0xAC }
+  - { offset: 0xA8BD5, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController torchOn]', symObjAddr: 0x170, symBinAddr: 0x105D4, symSize: 0x28 }
+  - { offset: 0xA8C1D, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController setupAVCaptureCameraSession]', symObjAddr: 0x198, symBinAddr: 0x105FC, symSize: 0x560 }
+  - { offset: 0xA8D15, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController destroyVideoCameraSession]', symObjAddr: 0x6F8, symBinAddr: 0x10B5C, symSize: 0x8C }
+  - { offset: 0xA8F89, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController captureOutput:didOutputSampleBuffer:fromConnection:]', symObjAddr: 0x784, symBinAddr: 0x10BE8, symSize: 0x23C }
+  - { offset: 0xA94C5, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController processFrame:actualImage:]', symObjAddr: 0xA54, symBinAddr: 0x10E24, symSize: 0x4 }
+  - { offset: 0xA950C, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController session]', symObjAddr: 0xA58, symBinAddr: 0x10E28, symSize: 0x10 }
+  - { offset: 0xA9543, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController device]', symObjAddr: 0xA68, symBinAddr: 0x10E38, symSize: 0x10 }
+  - { offset: 0xA957A, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController videoOutput]', symObjAddr: 0xA78, symBinAddr: 0x10E48, symSize: 0x10 }
+  - { offset: 0xA95B1, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController videoPreviewLayer]', symObjAddr: 0xA88, symBinAddr: 0x10E58, symSize: 0x10 }
+  - { offset: 0xA95E8, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController avCaptureStillImageOutput]', symObjAddr: 0xA98, symBinAddr: 0x10E68, symSize: 0x10 }
+  - { offset: 0xA961F, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController processHighDefinitionImage]', symObjAddr: 0xAA8, symBinAddr: 0x10E78, symSize: 0x10 }
+  - { offset: 0xA9656, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController setProcessHighDefinitionImage:]', symObjAddr: 0xAB8, symBinAddr: 0x10E88, symSize: 0x10 }
+  - { offset: 0xA9691, size: 0x8, addend: 0x0, symName: '-[VideoCaptureFingerprintViewController .cxx_destruct]', symObjAddr: 0xAC8, symBinAddr: 0x10E98, symSize: 0x7C }
+  - { offset: 0xAB58E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView initializationMethod:backGroundColorAlpha:]', symObjAddr: 0x0, symBinAddr: 0x10F14, symSize: 0xA0 }
+  - { offset: 0xAB6BB, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView initializationMethod:backGroundColorAlpha:]', symObjAddr: 0x0, symBinAddr: 0x10F14, symSize: 0xA0 }
+  - { offset: 0xAB70E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView initWithCoder:backGroundColor:backGroundColorAlpha:]', symObjAddr: 0xA0, symBinAddr: 0x10FB4, symSize: 0xDC }
+  - { offset: 0xAB775, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView initWithFrame:fingerLayerCount:backGroundColor:backGroundColorAlpha:isDebugEnable:]', symObjAddr: 0x17C, symBinAddr: 0x11090, symSize: 0x10C }
+  - { offset: 0xAB7F8, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView drawRect:]', symObjAddr: 0x288, symBinAddr: 0x1119C, symSize: 0x5DC }
+  - { offset: 0xAB99E, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setRoiFingerInfos:]', symObjAddr: 0x864, symBinAddr: 0x11778, symSize: 0x14 }
+  - { offset: 0xAB9E1, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView getFingerAreaRect]', symObjAddr: 0x878, symBinAddr: 0x1178C, symSize: 0x18 }
+  - { offset: 0xABA16, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView drawTargetRectangle:color_component:lineWidth:]', symObjAddr: 0x890, symBinAddr: 0x117A4, symSize: 0xB0 }
+  - { offset: 0xABBFC, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView captureLeftHand]', symObjAddr: 0x940, symBinAddr: 0x11854, symSize: 0x14 }
+  - { offset: 0xABC33, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setCaptureLeftHand:]', symObjAddr: 0x954, symBinAddr: 0x11868, symSize: 0x10 }
+  - { offset: 0xABC70, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView isDebugEnable]', symObjAddr: 0x964, symBinAddr: 0x11878, symSize: 0x10 }
+  - { offset: 0xABCA7, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setIsDebugEnable:]', symObjAddr: 0x974, symBinAddr: 0x11888, symSize: 0x10 }
+  - { offset: 0xABCE2, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView backgroundColor]', symObjAddr: 0x984, symBinAddr: 0x11898, symSize: 0x10 }
+  - { offset: 0xABD19, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setBackgroundColor:]', symObjAddr: 0x994, symBinAddr: 0x118A8, symSize: 0xC }
+  - { offset: 0xABD58, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView FingerlayerStrokColor]', symObjAddr: 0x9A0, symBinAddr: 0x118B4, symSize: 0x10 }
+  - { offset: 0xABD8F, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setFingerlayerStrokColor:]', symObjAddr: 0x9B0, symBinAddr: 0x118C4, symSize: 0xC }
+  - { offset: 0xABDCE, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView roiFingerInfos]', symObjAddr: 0x9BC, symBinAddr: 0x118D0, symSize: 0x10 }
+  - { offset: 0xABE05, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView fingerAreaRect]', symObjAddr: 0x9CC, symBinAddr: 0x118E0, symSize: 0x18 }
+  - { offset: 0xABE3A, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView setFingerAreaRect:]', symObjAddr: 0x9E4, symBinAddr: 0x118F8, symSize: 0x18 }
+  - { offset: 0xABE79, size: 0x8, addend: 0x0, symName: '-[FingerDetectionLayerView .cxx_destruct]', symObjAddr: 0x9FC, symBinAddr: 0x11910, symSize: 0x54 }
+  - { offset: 0xB9A5F, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorIN2cv6DMatchEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m, symObjAddr: 0x2344, symBinAddr: 0x13C04, symSize: 0x34 }
+  - { offset: 0xB9B07, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB8ne180100v, symObjAddr: 0x2378, symBinAddr: 0x13C38, symSize: 0x28 }
+  - { offset: 0xB9B1C, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x22D0, symBinAddr: 0x13B90, symSize: 0x50 }
+  - { offset: 0xBA9CC, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB8ne180100v, symObjAddr: 0x2378, symBinAddr: 0x13C38, symSize: 0x28 }
+  - { offset: 0xBB45B, size: 0x8, addend: 0x0, symName: '+[ImageUtils UIImageFromCVMat:convert_color:]', symObjAddr: 0x0, symBinAddr: 0x11964, symSize: 0x2EC }
+  - { offset: 0xBBA8F, size: 0x8, addend: 0x0, symName: '+[ImageUtils UIImageFromCVMat:]', symObjAddr: 0x380, symBinAddr: 0x11C50, symSize: 0x168 }
+  - { offset: 0xBBCB8, size: 0x8, addend: 0x0, symName: '+[ImageUtils CGImageFromCVMat:]', symObjAddr: 0x4E8, symBinAddr: 0x11DB8, symSize: 0x1C8 }
+  - { offset: 0xBC0CF, size: 0x8, addend: 0x0, symName: '-[ImageUtils read_image_data:]', symObjAddr: 0x6B0, symBinAddr: 0x11F80, symSize: 0x154 }
+  - { offset: 0xBC392, size: 0x8, addend: 0x0, symName: '+[ImageUtils CVMatFromUIImage:isGrayRequired:]', symObjAddr: 0x804, symBinAddr: 0x120D4, symSize: 0x4EC }
+  - { offset: 0xBD30C, size: 0x8, addend: 0x0, symName: '+[ImageUtils compareImageMat:matImg2:minMatches:]', symObjAddr: 0xCF0, symBinAddr: 0x125C0, symSize: 0x600 }
+  - { offset: 0xBF3FD, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorIN2cv6DMatchENS_9allocatorIS2_EEE20__throw_length_errorB8ne180100Ev, symObjAddr: 0x22BC, symBinAddr: 0x13B7C, symSize: 0x14 }
+  - { offset: 0xBF427, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x22D0, symBinAddr: 0x13B90, symSize: 0x50 }
+  - { offset: 0xBF432, size: 0x8, addend: 0x0, symName: '+[ImageUtils UIImageFromSampleBuffer:]', symObjAddr: 0x12F0, symBinAddr: 0x12BC0, symSize: 0xF8 }
+  - { offset: 0xBF6F6, size: 0x8, addend: 0x0, symName: '+[ImageUtils rotatingUIImageByOrientation:fromImageOrientation:]', symObjAddr: 0x13E8, symBinAddr: 0x12CB8, symSize: 0x42C }
+  - { offset: 0xBFB84, size: 0x8, addend: 0x0, symName: '+[ImageUtils imageScaledToSize:scaledToSize:]', symObjAddr: 0x1814, symBinAddr: 0x130E4, symSize: 0xA4 }
+  - { offset: 0xBFC5B, size: 0x8, addend: 0x0, symName: '+[ImageUtils reduceImageSize:imageSize:]', symObjAddr: 0x18B8, symBinAddr: 0x13188, symSize: 0x160 }
+  - { offset: 0xBFD4D, size: 0x8, addend: 0x0, symName: '+[ImageUtils imageWithImage:convertToSize:]', symObjAddr: 0x1A18, symBinAddr: 0x132E8, symSize: 0xA4 }
+  - { offset: 0xBFDDE, size: 0x8, addend: 0x0, symName: '+[ImageUtils createImageJSONString:formKey:]', symObjAddr: 0x1ABC, symBinAddr: 0x1338C, symSize: 0x1DC }
+  - { offset: 0xBFE67, size: 0x8, addend: 0x0, symName: '+[ImageUtils createPDFDocumentJSONString:formKey:]', symObjAddr: 0x1C98, symBinAddr: 0x13568, symSize: 0x1E4 }
+  - { offset: 0xBFF01, size: 0x8, addend: 0x0, symName: '+[ImageUtils createFaceImageJSONString:formKey:face_autoCapture:]', symObjAddr: 0x1E7C, symBinAddr: 0x1374C, symSize: 0x214 }
+  - { offset: 0xBFF9B, size: 0x8, addend: 0x0, symName: '+[ImageUtils createVoiceJSONString:formKey:]', symObjAddr: 0x2090, symBinAddr: 0x13960, symSize: 0x21C }
+  - { offset: 0xC0046, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B8ne180100EPKc, symObjAddr: 0x2320, symBinAddr: 0x13BE0, symSize: 0x24 }
+  - { offset: 0xC1F8F, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTgm5Tf4g_n', symObjAddr: 0x3718, symBinAddr: 0x17378, symSize: 0xFC }
+  - { offset: 0xC223E, size: 0x8, addend: 0x0, symName: '_$s15IDentityLiteSDK0aC0C018FingerPrintCaptureB0E06fingereF04from10completionySo16UIViewControllerC_ys6ResultOyAA0dE4DataVs5Error_pGctFZ', symObjAddr: 0x0, symBinAddr: 0x13C60, symSize: 0xE4C }
+  - { offset: 0xC2566, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xE4C, symBinAddr: 0x14AAC, symSize: 0x40 }
+  - { offset: 0xC25F3, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCfETo', symObjAddr: 0x32A0, symBinAddr: 0x16F00, symSize: 0x14 }
+  - { offset: 0xC262D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x32B4, symBinAddr: 0x16F14, symSize: 0x64 }
+  - { offset: 0xC2665, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x3318, symBinAddr: 0x16F78, symSize: 0xE0 }
+  - { offset: 0xC2740, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15IDentityLiteSDK11FingerPrintV_Tg5', symObjAddr: 0x33F8, symBinAddr: 0x17058, symSize: 0x174 }
+  - { offset: 0xC286B, size: 0x8, addend: 0x0, symName: '_$s15IDentityLiteSDK0aC0C018FingerPrintCaptureB0E25presentableViewController33_2724F90007F8601D8CC20B4EE3190319LLSo06UIViewI0CSgvgZTf4d_n', symObjAddr: 0x356C, symBinAddr: 0x171CC, symSize: 0x1AC }
+  - { offset: 0xC2966, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCMa', symObjAddr: 0x3814, symBinAddr: 0x17474, symSize: 0x20 }
+  - { offset: 0xC297A, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy15IDentityLiteSDK15FingerPrintDataVs5Error_pGIegn_SgWOe', symObjAddr: 0x3834, symBinAddr: 0x17494, symSize: 0x10 }
+  - { offset: 0xC298E, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x3880, symBinAddr: 0x174E0, symSize: 0x48 }
+  - { offset: 0xC29A2, size: 0x8, addend: 0x0, symName: '_$sSS_yptWOc', symObjAddr: 0x3928, symBinAddr: 0x17588, symSize: 0x48 }
+  - { offset: 0xC29B6, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x3970, symBinAddr: 0x175D0, symSize: 0x10 }
+  - { offset: 0xC2B18, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCACycfC', symObjAddr: 0xE8C, symBinAddr: 0x14AEC, symSize: 0x20 }
+  - { offset: 0xC2B47, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataC04sendE016fingerDictionaryySo09NSMutableI0CSg_tF', symObjAddr: 0xEAC, symBinAddr: 0x14B0C, symSize: 0x22DC }
+  - { offset: 0xC37EB, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataC04sendE016fingerDictionaryySo09NSMutableI0CSg_tFTo', symObjAddr: 0x3188, symBinAddr: 0x16DE8, symSize: 0x54 }
+  - { offset: 0xC37FF, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCACycfc', symObjAddr: 0x31DC, symBinAddr: 0x16E3C, symSize: 0x48 }
+  - { offset: 0xC3832, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCACycfcTo', symObjAddr: 0x3224, symBinAddr: 0x16E84, symSize: 0x4C }
+  - { offset: 0xC3867, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0aB12ResponseDataCfD', symObjAddr: 0x3270, symBinAddr: 0x16ED0, symSize: 0x30 }
+  - { offset: 0xC3AE8, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC05imageF0So07UIImageF0CSgvgTo', symObjAddr: 0x0, symBinAddr: 0x175E0, symSize: 0x10 }
+  - { offset: 0xC3E22, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x11D0, symBinAddr: 0x187B0, symSize: 0x2C }
+  - { offset: 0xC3E3A, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerCfETo', symObjAddr: 0x1490, symBinAddr: 0x18A70, symSize: 0x6C }
+  - { offset: 0xC3E69, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerCMa', symObjAddr: 0x14FC, symBinAddr: 0x18ADC, symSize: 0x20 }
+  - { offset: 0xC3E7D, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5closeyySo8UIButtonCFyycfU_TA', symObjAddr: 0x16D0, symBinAddr: 0x18CB0, symSize: 0x8 }
+  - { offset: 0xC3E91, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x16D8, symBinAddr: 0x18CB8, symSize: 0x10 }
+  - { offset: 0xC3EA5, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x16E8, symBinAddr: 0x18CC8, symSize: 0x8 }
+  - { offset: 0xC3EB9, size: 0x8, addend: 0x0, symName: '_$ss6ResultOy15IDentityLiteSDK15FingerPrintDataVs5Error_pGIegn_SgWOy', symObjAddr: 0x1730, symBinAddr: 0x18CD0, symSize: 0x10 }
+  - { offset: 0xC406C, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC05imageF0So07UIImageF0CSgvgTo', symObjAddr: 0x0, symBinAddr: 0x175E0, symSize: 0x10 }
+  - { offset: 0xC4084, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC05imageF0So07UIImageF0CSgvgTo', symObjAddr: 0x0, symBinAddr: 0x175E0, symSize: 0x10 }
+  - { offset: 0xC40CC, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC05imageF0So07UIImageF0CSgvsTo', symObjAddr: 0x10, symBinAddr: 0x175F0, symSize: 0x34 }
+  - { offset: 0xC411B, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC11closeButtonSo8UIButtonCSgvgTo', symObjAddr: 0x44, symBinAddr: 0x17624, symSize: 0x20 }
+  - { offset: 0xC4175, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC11closeButtonSo8UIButtonCSgvsTo', symObjAddr: 0x64, symBinAddr: 0x17644, symSize: 0x14 }
+  - { offset: 0xC41C6, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC14leftHandButtonSo8UIButtonCSgvgTo', symObjAddr: 0x78, symBinAddr: 0x17658, symSize: 0x20 }
+  - { offset: 0xC421B, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC14leftHandButtonSo8UIButtonCSgvsTo', symObjAddr: 0x98, symBinAddr: 0x17678, symSize: 0x14 }
+  - { offset: 0xC426C, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC15rightHandButtonSo8UIButtonCSgvgTo', symObjAddr: 0xAC, symBinAddr: 0x1768C, symSize: 0x20 }
+  - { offset: 0xC42C1, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC15rightHandButtonSo8UIButtonCSgvsTo', symObjAddr: 0xCC, symBinAddr: 0x176AC, symSize: 0x14 }
+  - { offset: 0xC4349, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC7prepare3for6senderySo17UIStoryboardSegueC_ypSgtF', symObjAddr: 0xE0, symBinAddr: 0x176C0, symSize: 0x94C }
+  - { offset: 0xC442D, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC7prepare3for6senderySo17UIStoryboardSegueC_ypSgtFTo', symObjAddr: 0xA2C, symBinAddr: 0x1800C, symSize: 0xA4 }
+  - { offset: 0xC4448, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC11viewDidLoadyyF', symObjAddr: 0xAD0, symBinAddr: 0x180B0, symSize: 0x5D0 }
+  - { offset: 0xC473E, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x10A0, symBinAddr: 0x18680, symSize: 0x28 }
+  - { offset: 0xC4772, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5closeyySo8UIButtonCFyycfU_', symObjAddr: 0x10C8, symBinAddr: 0x186A8, symSize: 0x108 }
+  - { offset: 0xC47CC, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5closeyySo8UIButtonCFTo', symObjAddr: 0x11FC, symBinAddr: 0x187DC, symSize: 0x4C }
+  - { offset: 0xC47F6, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc', symObjAddr: 0x1248, symBinAddr: 0x18828, symSize: 0xE8 }
+  - { offset: 0xC4837, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x1330, symBinAddr: 0x18910, symSize: 0x60 }
+  - { offset: 0xC487F, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x1390, symBinAddr: 0x18970, symSize: 0xA8 }
+  - { offset: 0xC48B2, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x1438, symBinAddr: 0x18A18, symSize: 0x28 }
+  - { offset: 0xC48C6, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerCfD', symObjAddr: 0x1460, symBinAddr: 0x18A40, symSize: 0x30 }
+  - { offset: 0xC48E9, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite0abC26InstructionsViewControllerC5closeyySo8UIButtonCFTf4dn_n', symObjAddr: 0x151C, symBinAddr: 0x18AFC, symSize: 0x164 }
+  - { offset: 0xC4A7C, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_A39660C6D75DBCA2BCC5FC535EC46770LLCfD', symObjAddr: 0x0, symBinAddr: 0x18E74, symSize: 0x10 }
+  - { offset: 0xC4ABE, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_A39660C6D75DBCA2BCC5FC535EC46770LLCMa', symObjAddr: 0x10, symBinAddr: 0x18E84, symSize: 0x20 }
+  - { offset: 0xC4AD9, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite81IkoCWrYTdbukyaYMjRwQwualRc4KAGnKOWBikxB4uyi4XCDKrrkG2JO5ENdIqCzrFodddI0TFk2xYeBt433_A39660C6D75DBCA2BCC5FC535EC46770LLCfD', symObjAddr: 0x0, symBinAddr: 0x18E74, symSize: 0x10 }
+  - { offset: 0xC4CA7, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite16ModelsEntryPointCMa', symObjAddr: 0xC4, symBinAddr: 0x18F48, symSize: 0x20 }
+  - { offset: 0xC4CC2, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite16ModelsEntryPointCACycfc', symObjAddr: 0x20, symBinAddr: 0x18EA4, symSize: 0x34 }
+  - { offset: 0xC4CFA, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite16ModelsEntryPointCACycfcTo', symObjAddr: 0x54, symBinAddr: 0x18ED8, symSize: 0x3C }
+  - { offset: 0xC4D35, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite16ModelsEntryPointCfD', symObjAddr: 0x90, symBinAddr: 0x18F14, symSize: 0x34 }
+  - { offset: 0xC4E9D, size: 0x8, addend: 0x0, symName: '_$s22FingerPrintCaptureLite19ResourceBundleClass33_27AF5D0FD5AA0ABF61F88D189FD7B6B5LLCMa', symObjAddr: 0x10, symBinAddr: 0x18F68, symSize: 0x20 }
+...

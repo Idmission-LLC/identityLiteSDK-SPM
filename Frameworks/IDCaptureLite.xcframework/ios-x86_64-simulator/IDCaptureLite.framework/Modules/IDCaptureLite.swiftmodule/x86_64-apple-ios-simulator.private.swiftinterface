@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IDCaptureLite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AudioToolbox
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import IDentityLiteSDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ValidateIdResult {
+  public var front: IDentityLiteSDK.DetectedData
+  public var back: IDentityLiteSDK.DetectedData?
+  public func finalSubmit(completion: @escaping IDentityLiteSDK.ValidateIdAPICompletion)
+}
+public typealias ValidateIdCompletion = (_ result: Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>) -> Swift.Void
+extension IDentityLiteSDK.IDentitySDK {
+  public static var customerValidateIdRequest: IDentityLiteSDK.CustomerValidateIdRequest?
+  public static var customerValidateSecondaryIdRequest: IDentityLiteSDK.CustomerValidateIdRequest?
+  public class func idValidation(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityLiteSDK.CaptureBack = .auto, isSecondaryID: Swift.Bool = false, completion: @escaping IDCaptureLite.ValidateIdCompletion)
+  public class func idValidation(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, isSecondaryID: Swift.Bool = false, completion: @escaping IDCaptureLite.ValidateIdCompletion)
+  public class func idValidation(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest?, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, captureBack: Swift.Int?, idType: Swift.String?, idCountry: Swift.String?, idState: Swift.String?, isSecondaryID: Swift.Bool = false, completion: @escaping IDCaptureLite.ValidateIdCompletion)
+}
+extension IDentityLiteSDK.StateMasterVO : Swift.Equatable {
+  public static func == (lhs: IDentityLiteSDK.StateMasterVO, rhs: IDentityLiteSDK.StateMasterVO) -> Swift.Bool
+}
+extension Foundation.UserDefaults {
+  public static var realIdNotDetectedCount: Swift.Int {
+    get
+    set
+  }
+}
+extension IDentityLiteSDK.CountryMaster : Swift.Equatable {
+  public static func == (lhs: IDentityLiteSDK.CountryMaster, rhs: IDentityLiteSDK.CountryMaster) -> Swift.Bool
+}

@@ -1,0 +1,11 @@
+framework module FingerPrintCaptureLite {
+  umbrella header "FingerPrintCaptureLite.h"
+  export *
+
+  module * { export * }
+}
+
+module FingerPrintCaptureLite.Swift {
+  header "FingerPrintCaptureLite-Swift.h"
+  requires objc
+}

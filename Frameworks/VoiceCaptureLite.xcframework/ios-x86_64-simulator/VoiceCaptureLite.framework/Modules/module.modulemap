@@ -1,0 +1,11 @@
+framework module VoiceCaptureLite {
+  umbrella header "VoiceCaptureLite.h"
+  export *
+
+  module * { export * }
+}
+
+module VoiceCaptureLite.Swift {
+  header "VoiceCaptureLite-Swift.h"
+  requires objc
+}

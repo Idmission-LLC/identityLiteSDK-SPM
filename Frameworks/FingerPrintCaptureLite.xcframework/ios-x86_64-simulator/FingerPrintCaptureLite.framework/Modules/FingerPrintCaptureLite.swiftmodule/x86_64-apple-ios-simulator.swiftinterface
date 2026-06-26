@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FingerPrintCaptureLite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
+@_exported import FingerPrintCaptureLite
+import Foundation
+import IDentityLiteSDK
+import SelfieCaptureLite
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias FingerPrintCaptureCompletion = (_ result: Swift.Result<IDentityLiteSDK.FingerPrintData, any Swift.Error>) -> Swift.Void
+extension IDentityLiteSDK.IDentitySDK {
+  public class func fingerPrintCapture(from presenter: UIKit.UIViewController, completion: @escaping FingerPrintCaptureLite.FingerPrintCaptureCompletion)
+}
+@_inheritsConvenienceInitializers @objc public class FingerPrintResponseData : ObjectiveC.NSObject {
+  @objc public func sendResponse(fingerDictionary: Foundation.NSMutableDictionary?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class ModelsEntryPoint : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}

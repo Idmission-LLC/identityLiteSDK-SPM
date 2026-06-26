@@ -1,0 +1,191 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VoiceCaptureLite",
+    "printedName": "VoiceCaptureLite",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "SelfieCaptureLite",
+        "printedName": "SelfieCaptureLite",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoiceCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDentitySDK",
+        "printedName": "IDentitySDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "voiceCapture",
+            "printedName": "voiceCapture(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C012VoiceCaptureB0E05voiceE04from10completionySo16UIViewControllerC_ys6ResultOy10Foundation3URLVs5Error_pGctFZ",
+            "moduleName": "VoiceCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15IDentityLiteSDK0aC0C",
+        "mangledName": "$s15IDentityLiteSDK0aC0C",
+        "moduleName": "IDentityLiteSDK",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/VoiceCapture\/VoiceCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 11,
+      "value": "\"voice.m4a\""
+    }
+  ]
+}

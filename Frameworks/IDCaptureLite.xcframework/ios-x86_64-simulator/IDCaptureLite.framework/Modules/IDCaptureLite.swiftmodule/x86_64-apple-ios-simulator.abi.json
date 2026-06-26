@@ -1,0 +1,1853 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "IDCaptureLite",
+    "printedName": "IDCaptureLite",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AudioToolbox",
+        "printedName": "AudioToolbox",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValidateIdResult",
+        "printedName": "ValidateIdResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "front",
+            "printedName": "front",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectedData",
+                "printedName": "IDentityLiteSDK.DetectedData",
+                "usr": "s:15IDentityLiteSDK12DetectedDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvp",
+            "mangledName": "$s13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvp",
+            "moduleName": "IDCaptureLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectedData",
+                    "printedName": "IDentityLiteSDK.DetectedData",
+                    "usr": "s:15IDentityLiteSDK12DetectedDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvg",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvg",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectedData",
+                    "printedName": "IDentityLiteSDK.DetectedData",
+                    "usr": "s:15IDentityLiteSDK12DetectedDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvs",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvs",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvM",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV5front08IDentityB3SDK12DetectedDataVvM",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "back",
+            "printedName": "back",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.DetectedData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectedData",
+                    "printedName": "IDentityLiteSDK.DetectedData",
+                    "usr": "s:15IDentityLiteSDK12DetectedDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvp",
+            "mangledName": "$s13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvp",
+            "moduleName": "IDCaptureLite",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.DetectedData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectedData",
+                        "printedName": "IDentityLiteSDK.DetectedData",
+                        "usr": "s:15IDentityLiteSDK12DetectedDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvg",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvg",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.DetectedData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectedData",
+                        "printedName": "IDentityLiteSDK.DetectedData",
+                        "usr": "s:15IDentityLiteSDK12DetectedDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvs",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvs",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvM",
+                "mangledName": "$s13IDCaptureLite16ValidateIdResultV4back08IDentityB3SDK12DetectedDataVSgvM",
+                "moduleName": "IDCaptureLite",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "finalSubmit",
+            "printedName": "finalSubmit(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDentityLiteSDK.CustomerValidateIdResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDentityLiteSDK.CustomerValidateIdResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdResponse",
+                        "printedName": "IDentityLiteSDK.CustomerValidateIdResponse",
+                        "usr": "s:15IDentityLiteSDK26CustomerValidateIdResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13IDCaptureLite16ValidateIdResultV11finalSubmit10completionyys0E0Oy08IDentityB3SDK08CustomercD8ResponseVs5Error_pGc_tF",
+            "mangledName": "$s13IDCaptureLite16ValidateIdResultV11finalSubmit10completionyys0E0Oy08IDentityB3SDK08CustomercD8ResponseVs5Error_pGc_tF",
+            "moduleName": "IDCaptureLite",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13IDCaptureLite16ValidateIdResultV",
+        "mangledName": "$s13IDCaptureLite16ValidateIdResultV",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDentityLiteSDK",
+        "printedName": "IDentityLiteSDK",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "IDCaptureLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDentitySDK",
+        "printedName": "IDentitySDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customerValidateIdRequest",
+            "printedName": "customerValidateIdRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerValidateIdRequest",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                    "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvpZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvpZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                        "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvgZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvgZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                        "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvsZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvsZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvMZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E25customerValidateIdRequestAA08CustomerfgH0VSgvMZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerValidateSecondaryIdRequest",
+            "printedName": "customerValidateSecondaryIdRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerValidateIdRequest",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                    "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvpZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvpZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                        "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvgZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvgZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "IDentityLiteSDK.CustomerValidateIdRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerValidateIdRequest",
+                        "printedName": "IDentityLiteSDK.CustomerValidateIdRequest",
+                        "usr": "s:15IDentityLiteSDK25CustomerValidateIdRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvsZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvsZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvMZ",
+                "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E34customerValidateSecondaryIdRequestAA08CustomerfhI0VSgvMZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "idValidation",
+            "printedName": "idValidation(from:customerDataOptions:options:captureBack:isSecondaryID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.CommonCustomerDataRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonCustomerDataRequest",
+                    "printedName": "IDentityLiteSDK.CommonCustomerDataRequest",
+                    "usr": "s:15IDentityLiteSDK25CommonCustomerDataRequestV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityLiteSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:15IDentityLiteSDK33AdditionalCustomerWFlagCommonDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureBack",
+                "printedName": "IDentityLiteSDK.CaptureBack",
+                "hasDefaultArg": true,
+                "usr": "s:15IDentityLiteSDK11CaptureBackO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidateIdResult",
+                        "printedName": "IDCaptureLite.ValidateIdResult",
+                        "usr": "s:13IDCaptureLite16ValidateIdResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalu5WFlagtI0VAA07CaptureM0OSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalu5WFlagtI0VAA07CaptureM0OSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "idValidation",
+            "printedName": "idValidation(from:customerDataOptions:options:idType:idCountry:idState:isSecondaryID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.CommonCustomerDataRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonCustomerDataRequest",
+                    "printedName": "IDentityLiteSDK.CommonCustomerDataRequest",
+                    "usr": "s:15IDentityLiteSDK25CommonCustomerDataRequestV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityLiteSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:15IDentityLiteSDK33AdditionalCustomerWFlagCommonDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidateIdResult",
+                        "printedName": "IDCaptureLite.ValidateIdResult",
+                        "usr": "s:13IDCaptureLite16ValidateIdResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalv5WFlaguI0VS3SSgSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalv5WFlaguI0VS3SSgSbys6ResultOyAD010ValidateIdZ0Vs5Error_pGctFZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "idValidation",
+            "printedName": "idValidation(from:customerDataOptions:options:captureBack:idType:idCountry:idState:isSecondaryID:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDentityLiteSDK.CommonCustomerDataRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonCustomerDataRequest",
+                    "printedName": "IDentityLiteSDK.CommonCustomerDataRequest",
+                    "usr": "s:15IDentityLiteSDK25CommonCustomerDataRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdditionalCustomerWFlagCommonData",
+                "printedName": "IDentityLiteSDK.AdditionalCustomerWFlagCommonData",
+                "usr": "s:15IDentityLiteSDK33AdditionalCustomerWFlagCommonDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<IDCaptureLite.ValidateIdResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValidateIdResult",
+                        "printedName": "IDCaptureLite.ValidateIdResult",
+                        "usr": "s:13IDCaptureLite16ValidateIdResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalx5WFlagwI0VSiSgSSSgA2WSbys6ResultOyAD16ValidateIdResultVs5Error_pGctFZ",
+            "mangledName": "$s15IDentityLiteSDK0aC0C09IDCaptureB0E12idValidation4from19customerDataOptions7options11captureBack0E4Type0E7Country0E5State13isSecondaryID10completionySo16UIViewControllerC_AA014CommonCustomerI7RequestVSgAA010Additionalx5WFlagwI0VSiSgSSSgA2WSbys6ResultOyAD16ValidateIdResultVs5Error_pGctFZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15IDentityLiteSDK0aC0C",
+        "mangledName": "$s15IDentityLiteSDK0aC0C",
+        "moduleName": "IDentityLiteSDK",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StateMasterVO",
+        "printedName": "StateMasterVO",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StateMasterVO",
+                "printedName": "IDentityLiteSDK.StateMasterVO",
+                "usr": "s:15IDentityLiteSDK13StateMasterVOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StateMasterVO",
+                "printedName": "IDentityLiteSDK.StateMasterVO",
+                "usr": "s:15IDentityLiteSDK13StateMasterVOV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK13StateMasterVOV09IDCaptureB0E2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15IDentityLiteSDK13StateMasterVOV09IDCaptureB0E2eeoiySbAC_ACtFZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15IDentityLiteSDK13StateMasterVOV",
+        "mangledName": "$s15IDentityLiteSDK13StateMasterVOV",
+        "moduleName": "IDentityLiteSDK",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaults",
+        "printedName": "UserDefaults",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "realIdNotDetectedCount",
+            "printedName": "realIdNotDetectedCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivpZ",
+            "mangledName": "$sSo14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivpZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivgZ",
+                "mangledName": "$sSo14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivgZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivsZ",
+                "mangledName": "$sSo14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivsZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivMZ",
+                "mangledName": "$sSo14NSUserDefaultsC13IDCaptureLiteE22realIdNotDetectedCountSivMZ",
+                "moduleName": "IDCaptureLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSUserDefaults",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSUserDefaults",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountryMaster",
+        "printedName": "CountryMaster",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CountryMaster",
+                "printedName": "IDentityLiteSDK.CountryMaster",
+                "usr": "s:15IDentityLiteSDK13CountryMasterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CountryMaster",
+                "printedName": "IDentityLiteSDK.CountryMaster",
+                "usr": "s:15IDentityLiteSDK13CountryMasterV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15IDentityLiteSDK13CountryMasterV09IDCaptureB0E2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15IDentityLiteSDK13CountryMasterV09IDCaptureB0E2eeoiySbAC_ACtFZ",
+            "moduleName": "IDCaptureLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15IDentityLiteSDK13CountryMasterV",
+        "mangledName": "$s15IDentityLiteSDK13CountryMasterV",
+        "moduleName": "IDentityLiteSDK",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1242,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "Array",
+      "offset": 2602,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "Array",
+      "offset": 2659,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4480,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/IDentitySDK+IDCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9835,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Table View Controllers\/SelectStateTableViewController.swift",
+      "kind": "Array",
+      "offset": 405,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/RetryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1024,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/IDCaptureInstructionsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1292,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2684,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 7907,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 8011,
+      "length": 5,
+      "value": "127.5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/TFLiteExtension.swift",
+      "kind": "FloatLiteral",
+      "offset": 8050,
+      "length": 5,
+      "value": "127.5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UserDefaults+IDCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 25,
+      "value": "\"com.idmission.IDCapture\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDCapture\/Extensions\/UserDefaults+IDCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 24,
+      "value": "\"realIdNotDetectedCount\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 12,
+      "value": "\"retry_blue\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 12,
+      "value": "\"IDDocument\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 12,
+      "value": "\"back_arrow\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 9,
+      "value": "\"close-x\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 25,
+      "value": "\"idInstructionAnimation1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 25,
+      "value": "\"idInstructionAnimation2\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1677,
+      "length": 25,
+      "value": "\"idInstructionAnimation3\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 25,
+      "value": "\"idInstructionAnimation4\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2039,
+      "length": 25,
+      "value": "\"idInstructionAnimation5\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 33,
+      "value": "\"idInstructionAnimationVertical1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2441,
+      "length": 33,
+      "value": "\"idInstructionAnimationVertical2\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 33,
+      "value": "\"idInstructionAnimationVertical3\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2851,
+      "length": 33,
+      "value": "\"idInstructionAnimationVertical4\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3056,
+      "length": 33,
+      "value": "\"idInstructionAnimationVertical5\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3228,
+      "length": 17,
+      "value": "\"overlay_barcode\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3401,
+      "length": 26,
+      "value": "\"overlay_barcode_vertical\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3566,
+      "length": 17,
+      "value": "\"overlay_capture\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 26,
+      "value": "\"overlay_capture_vertical\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3922,
+      "length": 27,
+      "value": "\"overlay_landscape_id_back\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4123,
+      "length": 36,
+      "value": "\"overlay_landscape_id_back_vertical\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4316,
+      "length": 27,
+      "value": "\"overlay_portrait_id_front\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4517,
+      "length": 36,
+      "value": "\"overlay_portrait_id_front_vertical\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Library\/Developer\/Xcode\/DerivedData\/idmissioniossdk-lite\/Build\/Intermediates.noindex\/IDentitySDK.build\/Release-iphonesimulator\/IDCaptureLite.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4678,
+      "length": 10,
+      "value": "\"retry_id\""
+    }
+  ]
+}
