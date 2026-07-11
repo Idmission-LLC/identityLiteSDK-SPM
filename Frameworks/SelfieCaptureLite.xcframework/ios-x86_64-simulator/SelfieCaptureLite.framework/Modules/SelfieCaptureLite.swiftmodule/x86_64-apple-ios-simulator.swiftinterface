@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SelfieCaptureLite
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SelfieCaptureLite
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AudioToolbox
 import DeveloperToolsSupport
 import Foundation
@@ -40,7 +40,9 @@ public struct CustomerEnrollResult {
   public var selfie: IDentityLiteSDK.Selfie
   public var front: IDentityLiteSDK.DetectedData
   public var back: IDentityLiteSDK.DetectedData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public func finalSubmit(cardToken: Swift.String? = nil, cardLast4: Swift.String? = nil, completion: @escaping IDentityLiteSDK.ValidateIdCustomerEnrollAPICompletion)
+  #endif
 }
 public typealias LiveFaceCheckCompletion = (_ result: Swift.Result<SelfieCaptureLite.LiveFaceCheckResult, any Swift.Error>) -> Swift.Void
 public typealias CustomerEnrollBiometricsCompletion = (_ result: Swift.Result<SelfieCaptureLite.CustomerEnrollBiometricsResult, any Swift.Error>) -> Swift.Void
@@ -50,22 +52,38 @@ public typealias ValidateIdMatchFaceCompletion = (_ result: Swift.Result<SelfieC
 public typealias ValidateIdCustomerEnrollCompletion = (_ result: Swift.Result<SelfieCaptureLite.CustomerEnrollResult, any Swift.Error>) -> Swift.Void
 extension IDentityLiteSDK.IDentitySDK {
   public static var customerLiveCheckRequest: IDentityLiteSDK.CustomerLiveCheckRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func liveFaceCheck(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerLiveCheckData? = nil, completion: @escaping SelfieCaptureLite.LiveFaceCheckCompletion)
+  #endif
   public static var customerEnrollBiometricsRequest: IDentityLiteSDK.CustomerEnrollBiometricsRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func customerEnrollBiometrics(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLiteSDK.PersonalCustomerEnrollBiometricsRequestData, options: IDentityLiteSDK.AdditionalCustomerEnrollBiometricRequestData, completion: @escaping SelfieCaptureLite.CustomerEnrollBiometricsCompletion)
+  #endif
   public static var customerVerifyRequest: IDentityLiteSDK.CustomerVerifyRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func customerVerification(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLiteSDK.PersonalCustomerVerifyData, options: IDentityLiteSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLite.CustomerVerificationCompletion)
+  #endif
   public static var customerIdentifyRequest: IDentityLiteSDK.CustomerIdentifyRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func identifyCustomer(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerCommonData, completion: @escaping SelfieCaptureLite.CustomerIdentifyCompletion)
+  #endif
 }
 extension IDentityLiteSDK.IDentitySDK {
   public static var customerValidateIdFaceMatchRequest: IDentityLiteSDK.CustomerValidateIdFaceMatchRequest?
   public static var customerValidateSecondaryIdFaceMatchRequest: IDentityLiteSDK.CustomerValidateIdFaceMatchRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityLiteSDK.CaptureBack = .auto, isSecondaryID: Swift.Bool = false, completion: @escaping SelfieCaptureLite.ValidateIdMatchFaceCompletion)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func idValidationAndMatchFace(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, isSecondaryID: Swift.Bool = false, completion: @escaping SelfieCaptureLite.ValidateIdMatchFaceCompletion)
+  #endif
   public static var customerEnrollRequest: IDentityLiteSDK.CustomerEnrollRequest?
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLiteSDK.PersonalCustomerCommonRequestEnrollData, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, captureBack: IDentityLiteSDK.CaptureBack = .auto, completion: @escaping SelfieCaptureLite.ValidateIdCustomerEnrollCompletion)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func idValidationAndCustomerEnroll(from presenter: UIKit.UIViewController, customerDataOptions: IDentityLiteSDK.CommonCustomerDataRequest? = nil, personalData: IDentityLiteSDK.PersonalCustomerCommonRequestEnrollData, options: IDentityLiteSDK.AdditionalCustomerWFlagCommonData, idType: Swift.String, idCountry: Swift.String, idState: Swift.String?, completion: @escaping SelfieCaptureLite.ValidateIdCustomerEnrollCompletion)
+  #endif
 }
 extension IDentityLiteSDK.IDentitySDK {
   public static var genericCustomerData: IDentityLiteSDK.GenericCustomerData

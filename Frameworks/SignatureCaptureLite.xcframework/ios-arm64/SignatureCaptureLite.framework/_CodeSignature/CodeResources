@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		aDYJkeTswFBKhLB8tDf5/XZ1kVg=
+		JXgG+oT+U5HfRzd9trnv19cttPQ=
 		</data>
 		<key>Headers/SignatureCaptureLite-Swift.h</key>
 		<data>
-		PctFJ0TQ+h2mNnPEUYwoGeA8VbQ=
+		oxn3q5hhqDUPUsy909NEwEovaCw=
 		</data>
 		<key>Headers/SignatureCaptureLite.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f/fahk3jLTh0dmdJkBSb73tfhiE=
+		+jyPHThRHoQ3xlOUucc0/PDUINU=
 		</data>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UfXXaSUqrOYNBGE1AcOKw/si1R0=
+		bCspxFH3j60izlP1C6pD8zfrEn8=
 		</data>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		BUwy9eeisYv9TyiQ/dfuJi1T2Kw=
+		hlUgieV8M/snbP6/wbPS3Q2gmg0=
 		</data>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		DAzqyHODxWq50pdBQiQctlqtIYc=
+		RWJaCB/bPR7c82Oufo3auWzdKBw=
 		</data>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BUwy9eeisYv9TyiQ/dfuJi1T2Kw=
+		hlUgieV8M/snbP6/wbPS3Q2gmg0=
 		</data>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Er87J2ocf44fIKckNhaN72VK1xo=
+		q0ZadC6usvd5CzLSpWr5eOm8lL8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,14 +63,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			osI5aTIWPFBKFp/x6irHNkFJCnbvG09BrRbGKYKt/Z4=
+			nFVzm+QVuCMWkYbbt6ipwTenzqB5/Ou8cNUj17gXh2o=
 			</data>
 		</dict>
 		<key>Headers/SignatureCaptureLite-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kHGIYjaNn1BhU3IDS+jAJ+eG+ZLc8PvDKxysgrnp5Dw=
+			MXT1lQ5+COBrqm4nTXfMLy40AbIY5lwuht6OBJ6s7HU=
 			</data>
 		</dict>
 		<key>Headers/SignatureCaptureLite.h</key>
@@ -84,35 +84,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5KeOnpwzOj+wUFcfByobAXLsgWa3uroH3+Rpg5xcTSc=
+			qXIgRqgVfIy2r/hHwHglMklz4LOjuT+7j72llOKyMiE=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohoLBhyOgP1iNIEiY0mWR5G0hHz7CNXjZfc7LfoOIkU=
+			1o9NV/zGrtmPMa40RE30zmg1rqRJZ3scXE+Q+GNd4/I=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			17LfTnLzdAY5mEM1EXLxZUbuVfSRb47QI55oY/iuyNM=
+			pNZ8hntCzJ9+HbZ9rXpG/3wPcyJRYp+OAjjUpFjFkk4=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohoLBhyOgP1iNIEiY0mWR5G0hHz7CNXjZfc7LfoOIkU=
+			1o9NV/zGrtmPMa40RE30zmg1rqRJZ3scXE+Q+GNd4/I=
 			</data>
 		</dict>
 		<key>Modules/SignatureCaptureLite.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLbqknH7lX7Kcn9Gh7UjSxmHYY6gxxj27oi5108aUKk=
+			TB6Bq9MFnEMTlT62drQFTTynIH6rQJLLKlBKGK9aouo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
