@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64/SignatureCaptureLite.framework/SignatureCaptureLite</key>
 		<data>
-		ppqpybeDZytpQ6IOYyALTV+zV3s=
+		Iczi4S/y6DPR87wl4ISD8k2uIxI=
 		</data>
 		<key>ios-arm64/SignatureCaptureLite.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureLite</key>
 		<data>
-		JS5VPk2o0ZyGmIC9sjDtL/kGNDg=
+		sUIpWB8mSZYyDabzU3QVlHfj7FE=
 		</data>
 		<key>ios-arm64/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/Relocations/aarch64/SignatureCaptureLite.yml</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/DWARF/SignatureCaptureLite</key>
 		<data>
-		34T8zvQUxv4MuMC9hB4dpp3iOqg=
+		8EIcggtPjyv1m5P11M4NI4AD5Vs=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/Relocations/x86_64/SignatureCaptureLite.yml</key>
 		<data>
@@ -279,11 +279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ppqpybeDZytpQ6IOYyALTV+zV3s=
+			Iczi4S/y6DPR87wl4ISD8k2uIxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			njnN0P0ofQ21ISwjzTdfm85o7EVuPFwOMm+C+9ZjYBE=
+			qEwpjgkTeBFdUx9Hnuy9P3oz2mXAG+7adxD6Iw0/ol4=
 			</data>
 		</dict>
 		<key>ios-arm64/SignatureCaptureLite.framework/_CodeSignature/CodeResources</key>
@@ -312,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JS5VPk2o0ZyGmIC9sjDtL/kGNDg=
+			sUIpWB8mSZYyDabzU3QVlHfj7FE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yGcf48pCXlT0X8LVXcMyiimN/E3IAszrdz1SNP8m/rY=
+			rg+AGNngZW6m0qpKqvSfECrqO/ILBBLbWQtchykrQ74=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/Relocations/aarch64/SignatureCaptureLite.yml</key>
@@ -499,11 +499,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			34T8zvQUxv4MuMC9hB4dpp3iOqg=
+			8EIcggtPjyv1m5P11M4NI4AD5Vs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tuyQwX2DKC08ICP8BFSAxKqk2chBMapSUDY7MWo/31Y=
+			/Son7XnZ4dc3y3tCOZsJomDiY7JRYI9g9VZoWaKWdqw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/SignatureCaptureLite.framework.dSYM/Contents/Resources/Relocations/x86_64/SignatureCaptureLite.yml</key>

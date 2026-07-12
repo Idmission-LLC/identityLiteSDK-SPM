@@ -214,7 +214,7 @@
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/IDentityLiteSDK</key>
 		<data>
-		jbAJFisOv8nZ8gZgUQCgwak/Qy4=
+		qgAhrnS67I2+jEjCzo+Sw74dSHE=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Info.plist</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLiteSDK</key>
 		<data>
-		YXhP3zAiutBjops27eBRddr+OSI=
+		fNXBj2rW9QGfo+dGDZXGO3hJJe0=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLiteSDK.yml</key>
 		<data>
@@ -526,7 +526,7 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLiteSDK</key>
 		<data>
-		PvseiFIa0bp9nzWhENUwnl3hQR0=
+		m2tz58l19eXlGHU+SRNs8mXMynE=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLiteSDK.yml</key>
 		<data>
@@ -1111,11 +1111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jbAJFisOv8nZ8gZgUQCgwak/Qy4=
+			qgAhrnS67I2+jEjCzo+Sw74dSHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwRQ5DSrThDaiGm/nUXqRWcFQ0+GN2nbTOhedJh+HzQ=
+			7yh2lf1iJZZUOcbIJ5Fa5JWocWn3iuqc1iuQJUcelZA=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Info.plist</key>
@@ -1243,11 +1243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YXhP3zAiutBjops27eBRddr+OSI=
+			fNXBj2rW9QGfo+dGDZXGO3hJJe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6jAJsj9Q9jaj3DbocS6U8JMuW+HRxG9+51ijM1U3a/I=
+			YRCr56hqRo+H4tcKw47dHAVvsMl1La9Sx9GbPJenLj4=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLiteSDK.yml</key>
@@ -1969,11 +1969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PvseiFIa0bp9nzWhENUwnl3hQR0=
+			m2tz58l19eXlGHU+SRNs8mXMynE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jjz1ozntYbL7O3MrK09V1FMqfeUr6E5Chh+iJxX2q4A=
+			4zCbyMlsS6iypjgaMHGEhm9GdGXljdDgkSpOdNR0DSc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLiteSDK.yml</key>
