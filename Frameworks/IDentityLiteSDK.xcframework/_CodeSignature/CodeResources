@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Assets.car</key>
 		<data>
-		Coi4QQqWydCvdM2pMqanf/7Cnec=
+		A/4IJkxhMKu5jxMZDQxjcUJX67g=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Headers/IDentityLiteSDK-Swift.h</key>
 		<data>
-		+N32CBLAn1cQSZxjYifOmOQJKO4=
+		WaidT8He31R5UwTOc0rRzglhVtE=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Headers/IDentityLiteSDK.h</key>
 		<data>
@@ -214,11 +214,11 @@
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/IDentityLiteSDK</key>
 		<data>
-		qgAhrnS67I2+jEjCzo+Sw74dSHE=
+		63fnOvE+ylJ9EAD5fbD5dAQaElg=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Info.plist</key>
 		<data>
-		tU1HPwaE/HdkW4utaOmUymMQXaY=
+		oENkx6at1qwKlQl9GwEo9JT1b5Q=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/LICENSE</key>
 		<data>
@@ -230,15 +230,15 @@
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		VYkPSMuNM1Ju/8ghL9f7HEohPos=
+		PZu0MUPZW097UK36s9eVLdmapAo=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		1j4/9MEQb++Xxnw6ecqNlff3j5Y=
+		5f4oVG1BtlMXp+QogcPDgOGAE9M=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VYkPSMuNM1Ju/8ghL9f7HEohPos=
+		PZu0MUPZW097UK36s9eVLdmapAo=
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>ios-arm64/IDentityLiteSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		GtxFu4uJVd6iMHmJxUBUA2naqvU=
+		bPC2jSEMOruRKu6PRgyJFzjjO5I=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -262,15 +262,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLiteSDK</key>
 		<data>
-		fNXBj2rW9QGfo+dGDZXGO3hJJe0=
+		H/PIOZPCSsYSuGglP7+SlbdQWkk=
 		</data>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLiteSDK.yml</key>
 		<data>
-		Ex+58lBi46E/n1Q38mz8oqIKZZk=
+		JkTGiTYnACa6VFXc51/NLEKJ/mI=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Assets.car</key>
 		<data>
-		Coi4QQqWydCvdM2pMqanf/7Cnec=
+		A/4IJkxhMKu5jxMZDQxjcUJX67g=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
 		<data>
@@ -326,7 +326,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Headers/IDentityLiteSDK-Swift.h</key>
 		<data>
-		qs5s5XSyNWfOER/N6jGIWpPxYzI=
+		pxh3nFJSfm06SBIZDUEgKSxcqAg=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Headers/IDentityLiteSDK.h</key>
 		<data>
@@ -478,11 +478,11 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/IDentityLiteSDK</key>
 		<data>
-		ckOD6pTumiBFt+xdftFjYo+8Tk8=
+		RkIicgkREb4rzhBNNOiJFlxPRyk=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Info.plist</key>
 		<data>
-		mE/0XENx7Qkr6imrm7H9Bl4tHFM=
+		h2yhmkJ3BX26kCCtF05DS2vUh8c=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/LICENSE</key>
 		<data>
@@ -494,15 +494,15 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		guE0mA+/K0jUg84NuvX6xWU/QXw=
+		sv2/gmPCSSy2NVpLHpMcUpR2qt0=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zv5UzxBZoeJIRsKLDPDV8aECIgk=
+		fukOclzD7W9nk9q9rBndwtgwlEk=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		guE0mA+/K0jUg84NuvX6xWU/QXw=
+		sv2/gmPCSSy2NVpLHpMcUpR2qt0=
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -518,7 +518,7 @@
 		</data>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		9Au7SOyaeonPsLeZV6q8qxlPPrs=
+		FhvxGa7n0J26gGVcw7h63R5Gdr4=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -526,11 +526,11 @@
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/DWARF/IDentityLiteSDK</key>
 		<data>
-		m2tz58l19eXlGHU+SRNs8mXMynE=
+		dojes4c61vtiiWuLc9ynVqIwBv8=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLiteSDK.yml</key>
 		<data>
-		GuV9Vw4hrWIBUZhW4SwOyeBQ1YI=
+		7BkU4/HCbk7CLVVGIti4KkgDgXM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -539,11 +539,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Coi4QQqWydCvdM2pMqanf/7Cnec=
+			A/4IJkxhMKu5jxMZDQxjcUJX67g=
 			</data>
 			<key>hash2</key>
 			<data>
-			/td2FHSEjGyGBlYTy7aRiv9vn/A+gGgeoNJXWINFLRA=
+			/8YBieoiMN+z9HPABhMZVIBEmoKu1YC2nJpwBnmhFo0=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
@@ -693,11 +693,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+N32CBLAn1cQSZxjYifOmOQJKO4=
+			WaidT8He31R5UwTOc0rRzglhVtE=
 			</data>
 			<key>hash2</key>
 			<data>
-			IIADQFGdJXTFVoi0SvhrmTY5kMiExHxtVM1Ia3yqEvI=
+			lqUMJrHdRF8FNcEdVMB52GXCeznboMSrPIzfFeiQFGw=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Headers/IDentityLiteSDK.h</key>
@@ -1111,22 +1111,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qgAhrnS67I2+jEjCzo+Sw74dSHE=
+			63fnOvE+ylJ9EAD5fbD5dAQaElg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7yh2lf1iJZZUOcbIJ5Fa5JWocWn3iuqc1iuQJUcelZA=
+			/9P4jcO7etaOBdUMLTUSZcL9l6UZ114jMZK1sbKaK+0=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tU1HPwaE/HdkW4utaOmUymMQXaY=
+			oENkx6at1qwKlQl9GwEo9JT1b5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			tNeuJPjaqjAZ7JdD4QFog8Jz4L5EzTFHuXWyfEapPaA=
+			LLVTDPifZTE+NKm7i+0if1+U2JYPXxrgWZrfNZeukNc=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/LICENSE</key>
@@ -1155,33 +1155,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VYkPSMuNM1Ju/8ghL9f7HEohPos=
+			PZu0MUPZW097UK36s9eVLdmapAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mKJXBGvKU4szI4KgBdHw6KfMT7EPdqThbHO0hN/JAlY=
+			v/OZsJlgkKwInMnh01X3fd5DxO0yMcLoxhHkcSwlKp4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1j4/9MEQb++Xxnw6ecqNlff3j5Y=
+			5f4oVG1BtlMXp+QogcPDgOGAE9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			rMPao56kdP3GRpvrgEOJbwVfeclO5BB8PlCJBbr6yNU=
+			TCPKlhhFgWyiQWDGY3Tl9QUt0Q802cOVDkKyRAUplJQ=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VYkPSMuNM1Ju/8ghL9f7HEohPos=
+			PZu0MUPZW097UK36s9eVLdmapAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mKJXBGvKU4szI4KgBdHw6KfMT7EPdqThbHO0hN/JAlY=
+			v/OZsJlgkKwInMnh01X3fd5DxO0yMcLoxhHkcSwlKp4=
 			</data>
 		</dict>
 		<key>ios-arm64/IDentityLiteSDK.framework/Modules/module.modulemap</key>
@@ -1221,11 +1221,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GtxFu4uJVd6iMHmJxUBUA2naqvU=
+			bPC2jSEMOruRKu6PRgyJFzjjO5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			IzcGKD62ZXHt4u93VMc1xb7MnCKJdeJaFPREHc3EWxI=
+			9/g1jzNegBPHJNU1lxpOz/ZLwbiAbUcmyk+asAeOlHw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Info.plist</key>
@@ -1243,33 +1243,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fNXBj2rW9QGfo+dGDZXGO3hJJe0=
+			H/PIOZPCSsYSuGglP7+SlbdQWkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			YRCr56hqRo+H4tcKw47dHAVvsMl1La9Sx9GbPJenLj4=
+			TTg82fqDcbV8ihVQ5M8fp+yosnluw6GOfc0wDnviBuM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/IDentityLiteSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ex+58lBi46E/n1Q38mz8oqIKZZk=
+			JkTGiTYnACa6VFXc51/NLEKJ/mI=
 			</data>
 			<key>hash2</key>
 			<data>
-			9pFkmIwxe2JbeqH3qBUKtUl9emDAPnqSpeafA89tejs=
+			sPB1POcLbL2ok//7r/MBPr3UpJINsVb2nG/ufpPRSMw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Coi4QQqWydCvdM2pMqanf/7Cnec=
+			A/4IJkxhMKu5jxMZDQxjcUJX67g=
 			</data>
 			<key>hash2</key>
 			<data>
-			/td2FHSEjGyGBlYTy7aRiv9vn/A+gGgeoNJXWINFLRA=
+			/8YBieoiMN+z9HPABhMZVIBEmoKu1YC2nJpwBnmhFo0=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/DocumentCapture.storyboardc/1Pk-oV-bqy-view-n8U-9k-eXr.nib</key>
@@ -1419,11 +1419,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qs5s5XSyNWfOER/N6jGIWpPxYzI=
+			pxh3nFJSfm06SBIZDUEgKSxcqAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2L9v0zJ9HDy+x3ktz/ZFpysEVG0oi7G9uUA6lDRXwGw=
+			UYfX6gF+Pqi8xr5DVuFhIqZtX0KaKTjMcrZGn5UgA60=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Headers/IDentityLiteSDK.h</key>
@@ -1837,22 +1837,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ckOD6pTumiBFt+xdftFjYo+8Tk8=
+			RkIicgkREb4rzhBNNOiJFlxPRyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			3x5fkGFVYUN85jtsKD/MyfUYdnhy+UfwBxO5gyUjB4Y=
+			d3kPYaZX4C7V8LVy0QGmWEA5nXMM0am2cWsLnFhaIMc=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mE/0XENx7Qkr6imrm7H9Bl4tHFM=
+			h2yhmkJ3BX26kCCtF05DS2vUh8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			GWqbGOtgZ6Z2OrE0Dz5RlNYqELE4/rLSf+BBkXVjfQA=
+			ewYDgG5rdj0x/t9jY/WIT4LJeF8Js3qrY7hzyywJrdk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/LICENSE</key>
@@ -1881,33 +1881,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			guE0mA+/K0jUg84NuvX6xWU/QXw=
+			sv2/gmPCSSy2NVpLHpMcUpR2qt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xswy/Ky7rM4ZPrzug2zIC98YA/VMR/aelUj50QmATCc=
+			MThvZgetf8MXXKDiHBg+xTB1coUlZUhb8pn8KoXiA9A=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zv5UzxBZoeJIRsKLDPDV8aECIgk=
+			fukOclzD7W9nk9q9rBndwtgwlEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vL87OEz1y2J8G4VnlqyceZH992zav8HR0nM9px0Ay8k=
+			rdczUUrOfPmpB9O/4XLQbXuH5rvHrS+G0G3kuM+0MwY=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/IDentityLiteSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			guE0mA+/K0jUg84NuvX6xWU/QXw=
+			sv2/gmPCSSy2NVpLHpMcUpR2qt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xswy/Ky7rM4ZPrzug2zIC98YA/VMR/aelUj50QmATCc=
+			MThvZgetf8MXXKDiHBg+xTB1coUlZUhb8pn8KoXiA9A=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/IDentityLiteSDK.framework/Modules/module.modulemap</key>
@@ -1947,11 +1947,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Au7SOyaeonPsLeZV6q8qxlPPrs=
+			FhvxGa7n0J26gGVcw7h63R5Gdr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			N5hDopU3EkxaXN/COC3BWR3ecLloJN4/qRZPP7REmPE=
+			7sBMefl++YFtMgVGj6ht+ysHRjzPACfDmEKDcRdJ+9w=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Info.plist</key>
@@ -1969,22 +1969,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m2tz58l19eXlGHU+SRNs8mXMynE=
+			dojes4c61vtiiWuLc9ynVqIwBv8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4zCbyMlsS6iypjgaMHGEhm9GdGXljdDgkSpOdNR0DSc=
+			1+b3dnOjZ0tt71q5vK4OTFMnTvlzLG9y36FXaXz9jlk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/IDentityLiteSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/IDentityLiteSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GuV9Vw4hrWIBUZhW4SwOyeBQ1YI=
+			7BkU4/HCbk7CLVVGIti4KkgDgXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6gXQRrIj0Bd0tJ6UArcKVYMve0d17gfQTzYEmi/pO2k=
+			N7qz+YiYEIvvTq1sQ4HZfWYuHijTN5KAuI8rlQajNBA=
 			</data>
 		</dict>
 	</dict>

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		PF+YRvijxSa/Mvc2TMU3Sgn1jV0=
+		RjeD3fSHhXNgq4VueT3/okg/5E0=
 		</data>
 		<key>Headers/IDCaptureLite-Swift.h</key>
 		<data>
-		RbHJsZw2z4hDH/gPzx3C/qhaPw8=
+		/hjcgnWYdb0uJhCC/SY/3kXH7NA=
 		</data>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>IDCapture.storyboardc/Ff5-cc-gUl-view-big-ZQ-W6Q.nib</key>
 		<data>
-		H8NfqSThi0z4rs6NSb4vPvp4aWc=
+		JUUrv3KLRv77hY2wLfGo9+lSw+g=
 		</data>
 		<key>IDCapture.storyboardc/IDCaptureInstructionsViewController.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>IDCapture.storyboardc/Kxl-rx-rZ7-view-MTo-GG-BaX.nib</key>
 		<data>
-		H8NfqSThi0z4rs6NSb4vPvp4aWc=
+		JUUrv3KLRv77hY2wLfGo9+lSw+g=
 		</data>
 		<key>IDCapture.storyboardc/RetryViewController.nib</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>IDCapture.storyboardc/mkj-2R-7XC-view-Woh-ia-fDF.nib</key>
 		<data>
-		H8NfqSThi0z4rs6NSb4vPvp4aWc=
+		JUUrv3KLRv77hY2wLfGo9+lSw+g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XeMq/0eniT+DGKjQVDA/Vch86Ns=
+		UxdY1kL8rJKsaDqmXxQZp7UwkJY=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -82,19 +82,19 @@
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		O8Bh4nK2eYSEj/kwLSIg9poPOrs=
+		0hYEJ2leervmbUJSywqZx32AlTg=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zRlP07ZU/AQoXSuQ/t9i34o1EJ8=
+		TS1yltgalsDGrIxV/zJetc1EeZI=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		O8Bh4nK2eYSEj/kwLSIg9poPOrs=
+		0hYEJ2leervmbUJSywqZx32AlTg=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kdRNPPvzbbTdJC1Ez8BjQSes4a0=
+		qq+JM/3YSkGXgs6je8dIMXifW6g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KDqXalZRc0NPHtel7vDEQ+52LS3E55ZbVMeynwHHTOg=
+			Gl5LeDX+0heAG/+aWR/B4QtqakT3a8x0T03acnLm3mM=
 			</data>
 		</dict>
 		<key>Headers/IDCaptureLite-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ByFxaNQN9g3IbKrJlNuGFObSWrs6poMKgq6e/e1PvtA=
+			yMyV3HK/eqx6+RJ28CgZrc+/og3dPEDNbaM3UiGWV6o=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/0MQ-BS-jP5-view-1qV-G3-ufb.nib</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			svY82fTDFgghrMCIFCg/uwTn7pii2bsYyYBJPcWGJdk=
+			tuQadCKN4NhpDVN8BGGGewHnLQPSEwCXQn+lWWaKsbs=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/IDCaptureInstructionsViewController.nib</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			svY82fTDFgghrMCIFCg/uwTn7pii2bsYyYBJPcWGJdk=
+			tuQadCKN4NhpDVN8BGGGewHnLQPSEwCXQn+lWWaKsbs=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/RetryViewController.nib</key>
@@ -219,7 +219,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			svY82fTDFgghrMCIFCg/uwTn7pii2bsYyYBJPcWGJdk=
+			tuQadCKN4NhpDVN8BGGGewHnLQPSEwCXQn+lWWaKsbs=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -233,28 +233,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gt6ohD1pHGz36iJgQz4JfXr3c6DTWIW95mE8tj8I2/k=
+			xNKc/yieyoXPt0e6dCitTt7E+jRnN4+PGtTuJ9Ekyq8=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KLfywpkXG6UrsBQBg2reAM2Yzd+5ucbIcd/YXNGd1OM=
+			4fJ403m/ojkwXOcS94Xq3U0xjNbBkiyGyPQAw6MFYbo=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gt6ohD1pHGz36iJgQz4JfXr3c6DTWIW95mE8tj8I2/k=
+			xNKc/yieyoXPt0e6dCitTt7E+jRnN4+PGtTuJ9Ekyq8=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrG+pCkKUNXk7gue8TRLyONINxj36m7DAMS+ncWeot8=
+			iTGBPw6bgnm0MruNyl7fsAqnC47W5IQOLSjnXjfDjEI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
