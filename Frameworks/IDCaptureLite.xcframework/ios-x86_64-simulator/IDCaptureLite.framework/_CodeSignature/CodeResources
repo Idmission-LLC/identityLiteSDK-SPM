@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lg1sYlGAgEBM6T+sGAoAGSYWmuU=
+		01xB/ZvFdZ+owo6cRPZIgsLEcjs=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		q0SLL4fEr9UpMn3uOQXeq3IdqdI=
+		WDEtNV2cSPtKGMZKfKxNmm006E0=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jxh0fDUij68T5ZFQwwPe3GsEU4w=
+		032Ie+ZaU0lceK5ks5p9fNZ7YlM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZaYey2wmpcoZJrAPXiJmvqfYV1Y9wzZMfM1DJp6pbI=
+			0rWMtjiak6mAWE74xMgGAXbTGBcgtOw7sg00wiK0gXI=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z18cc8yfMouhZ+FBP8SoONKDLlkkhd91kVKBjzibfOg=
+			9WWlNmnMIT+4SOlutJK4KgBY36vzqAXnbw09K+E22f0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

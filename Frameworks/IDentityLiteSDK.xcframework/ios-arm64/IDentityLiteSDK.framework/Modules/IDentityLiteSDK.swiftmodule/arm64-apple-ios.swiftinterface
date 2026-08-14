@@ -31,6 +31,107 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
+public protocol IDCaptureDelegate : AnyObject {
+  func updated(state: IDentityLiteSDK.IDCaptureState)
+}
+public enum IDCaptureState {
+  case detectingBox(isDetectingFront: Swift.Bool)
+  case backImageDetected
+  case frontImageDetected
+  case tooMuchGlare
+  case moveCloser
+  case moveAway
+  case alignRectangle
+  case glare
+  case finger
+  case notInFocus(isDetectingBackFirst: Swift.Bool)
+  case capturing
+  case idPredictionTimeout(isDetectingFront: Swift.Bool)
+  case idPredictionWarningTimeout(isDetectingFront: Swift.Bool)
+  case detectedBox(IDentityLiteSDK.DetectedData)
+  case classifiedDocument(IDentityLiteSDK.DetectedData)
+  case success(IDentityLiteSDK.DetectedData)
+  case timedOut(IDentityLiteSDK.DetectedData)
+  case failed(IDentityLiteSDK.DetectedData)
+}
+public struct DebugData {
+  public var documentLocation: CoreFoundation.CGRect
+  public var fullSize: CoreFoundation.CGSize?
+  public var faceLocation: CoreFoundation.CGRect?
+  public var faceRectScore: Swift.Float?
+  public var realnessScores: IDentityLiteSDK.RealnessScores?
+  public var topClassifierResults: [(Swift.String, Swift.Float)]?
+  public var focusScore: Swift.Float?
+  public var glareRect: CoreFoundation.CGRect?
+  public var fingerRect: CoreFoundation.CGRect?
+  public var glareScore: Swift.Float?
+  public var fingerScore: Swift.Float?
+  public var mrzRect: CoreFoundation.CGRect?
+  public var barcodeRect: CoreFoundation.CGRect?
+}
+public struct DetectedData {
+  public enum DocumentSide {
+    case front
+    case back
+    public static func == (a: IDentityLiteSDK.DetectedData.DocumentSide, b: IDentityLiteSDK.DetectedData.DocumentSide) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var documentLocation: CoreFoundation.CGRect
+  public var documentConfidence: Swift.Float
+  public var faceLocation: CoreFoundation.CGRect?
+  public var faceRectScore: Swift.Float?
+  public var fullImageSize: CoreFoundation.CGSize
+  public var type: Swift.String?
+  public var sides: Swift.Int
+  public var side: IDentityLiteSDK.DetectedData.DocumentSide?
+  public var shouldHavePhoto: Swift.Bool
+  public var shouldHaveMrz: Swift.Bool
+  public var shouldHaveBarcode: Swift.Bool {
+    get
+  }
+  public var isRealnesCheckDone: Swift.Bool?
+  public var isReal: Swift.Bool?
+  public var realness: Swift.Float?
+  public var avgPhotoCopy: Swift.Float?
+  public var avgScreen: Swift.Float?
+  public var isPhotoPresent: Swift.Bool
+  public var mrz: IDentityLiteSDK.MRZResult?
+  public var barcode: [Swift.String : Swift.String]?
+  public var barcodeImage: UIKit.UIImage?
+  public var nfcFaceImageMatched: Swift.Bool?
+  public var nfcFaceImageMatchDistance: Swift.Float?
+  public var ocrStrings: [Swift.String]?
+  public var idType: Swift.String?
+  public var country: Swift.String?
+  public var state: Swift.String?
+  public var barcodeType: Swift.String?
+  public var image: UIKit.UIImage?
+  public var faceImage: UIKit.UIImage?
+  public var finalExifIdImageBase64String: Swift.String?
+}
+public struct SelectedData {
+  public var idType: Swift.String
+  public var country: Swift.String
+  public var state: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(idType: Swift.String, country: Swift.String, state: Swift.String? = nil)
+  #endif
+}
+public enum CaptureBack : Swift.Int {
+  case no
+  case yes
+  case auto
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 extension IDentityLiteSDK.FingerPrintCapture {
   public struct Options {
     public var enableInstructionScreen: Swift.Bool
@@ -1141,107 +1242,6 @@ public struct TrainingModelDownloadDetails : Swift.Encodable {
   #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public protocol IDCaptureDelegate : AnyObject {
-  func updated(state: IDentityLiteSDK.IDCaptureState)
-}
-public enum IDCaptureState {
-  case detectingBox
-  case backImageDetected
-  case frontImageDetected
-  case tooMuchGlare
-  case moveCloser
-  case moveAway
-  case alignRectangle
-  case glare
-  case finger
-  case notInFocus
-  case capturing
-  case idPredictionTimeout
-  case idPredictionWarningTimeout
-  case detectedBox(IDentityLiteSDK.DetectedData)
-  case classifiedDocument(IDentityLiteSDK.DetectedData)
-  case success(IDentityLiteSDK.DetectedData)
-  case timedOut(IDentityLiteSDK.DetectedData)
-  case failed(IDentityLiteSDK.DetectedData)
-}
-public struct DebugData {
-  public var documentLocation: CoreFoundation.CGRect
-  public var fullSize: CoreFoundation.CGSize?
-  public var faceLocation: CoreFoundation.CGRect?
-  public var faceRectScore: Swift.Float?
-  public var realnessScores: IDentityLiteSDK.RealnessScores?
-  public var topClassifierResults: [(Swift.String, Swift.Float)]?
-  public var focusScore: Swift.Float?
-  public var glareRect: CoreFoundation.CGRect?
-  public var fingerRect: CoreFoundation.CGRect?
-  public var glareScore: Swift.Float?
-  public var fingerScore: Swift.Float?
-  public var mrzRect: CoreFoundation.CGRect?
-  public var barcodeRect: CoreFoundation.CGRect?
-}
-public struct DetectedData {
-  public enum DocumentSide {
-    case front
-    case back
-    public static func == (a: IDentityLiteSDK.DetectedData.DocumentSide, b: IDentityLiteSDK.DetectedData.DocumentSide) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  public var documentLocation: CoreFoundation.CGRect
-  public var documentConfidence: Swift.Float
-  public var faceLocation: CoreFoundation.CGRect?
-  public var faceRectScore: Swift.Float?
-  public var fullImageSize: CoreFoundation.CGSize
-  public var type: Swift.String?
-  public var sides: Swift.Int
-  public var side: IDentityLiteSDK.DetectedData.DocumentSide?
-  public var shouldHavePhoto: Swift.Bool
-  public var shouldHaveMrz: Swift.Bool
-  public var shouldHaveBarcode: Swift.Bool {
-    get
-  }
-  public var isRealnesCheckDone: Swift.Bool?
-  public var isReal: Swift.Bool?
-  public var realness: Swift.Float?
-  public var avgPhotoCopy: Swift.Float?
-  public var avgScreen: Swift.Float?
-  public var isPhotoPresent: Swift.Bool
-  public var mrz: IDentityLiteSDK.MRZResult?
-  public var barcode: [Swift.String : Swift.String]?
-  public var barcodeImage: UIKit.UIImage?
-  public var nfcFaceImageMatched: Swift.Bool?
-  public var nfcFaceImageMatchDistance: Swift.Float?
-  public var ocrStrings: [Swift.String]?
-  public var idType: Swift.String?
-  public var country: Swift.String?
-  public var state: Swift.String?
-  public var barcodeType: Swift.String?
-  public var image: UIKit.UIImage?
-  public var faceImage: UIKit.UIImage?
-  public var finalExifIdImageBase64String: Swift.String?
-}
-public struct SelectedData {
-  public var idType: Swift.String
-  public var country: Swift.String
-  public var state: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(idType: Swift.String, country: Swift.String, state: Swift.String? = nil)
-  #endif
-}
-public enum CaptureBack : Swift.Int {
-  case no
-  case yes
-  case auto
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int)
-  #endif
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 public class IDCapture {
   public var captureBack: IDentityLiteSDK.CaptureBack?
   public var idTypeCountryState: IDentityLiteSDK.SelectedData?
@@ -1714,6 +1714,8 @@ extension IDentityLiteSDK.IDCapture {
     public var idCaptureInstructionAnimationImages: [UIKit.UIImage]?
     public var idInstructionAnimationDuration: Swift.Double
     public var enablePassportNFC: Swift.Bool
+    public var showPassportNFCReadProgress: Swift.Bool
+    public var passportNFCReadChunkSize: Swift.Int
     public var performIdCaptureBeforeSelfie: Swift.Bool
     public var instructionScreenBackButtonIsHidden: Swift.Bool
     public var cameraScreenBackButtonIsHidden: Swift.Bool
@@ -1727,6 +1729,7 @@ extension IDentityLiteSDK.IDCapture {
     public var isIDCapturePreviewEnabled: Swift.Bool
     public var consecutiveFakeIdCaptureLimit: Swift.Int
     public var idCaptureOrientationMode: IDentityLiteSDK.IdCaptureOrientationMode
+    public var enableDynamicBothSideCapture: Swift.Bool
   }
 }
 public struct CustomerEnrollBiometricsRequest : Swift.Encodable {
@@ -3284,6 +3287,7 @@ extension IDentityLiteSDK.IDCapture {
     public var flipToBack: Swift.String
     public var autofillPrompt: Swift.String
     public var documentDetectedHoldStill: Swift.String
+    public var idCardBackDetectedHoldStill: Swift.String
     public var previewScreenTitleIdFront: Swift.String
     public var previewScreenTitleIdBack: Swift.String
     public var previewScreenRetryBtnText: Swift.String
@@ -4785,6 +4789,11 @@ public struct CustomerAutofillIdDataRS : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension IDentityLiteSDK.DetectedData.DocumentSide : Swift.Equatable {}
+extension IDentityLiteSDK.DetectedData.DocumentSide : Swift.Hashable {}
+extension IDentityLiteSDK.CaptureBack : Swift.Equatable {}
+extension IDentityLiteSDK.CaptureBack : Swift.Hashable {}
+extension IDentityLiteSDK.CaptureBack : Swift.RawRepresentable {}
 extension IDentityLiteSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.Equatable {}
 extension IDentityLiteSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.Hashable {}
 extension IDentityLiteSDK.PersonalCustomerCommonRequestEnrollData.Gender : Swift.RawRepresentable {}
@@ -4928,11 +4937,6 @@ extension IDentityLiteSDK.AdditionalCustomerWFlagCommonData.SendSignatureFromIdI
 extension IDentityLiteSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Equatable {}
 extension IDentityLiteSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.Hashable {}
 extension IDentityLiteSDK.AdditionalCustomerWFlagCommonData.SendDocumentIdInResponse : Swift.RawRepresentable {}
-extension IDentityLiteSDK.DetectedData.DocumentSide : Swift.Equatable {}
-extension IDentityLiteSDK.DetectedData.DocumentSide : Swift.Hashable {}
-extension IDentityLiteSDK.CaptureBack : Swift.Equatable {}
-extension IDentityLiteSDK.CaptureBack : Swift.Hashable {}
-extension IDentityLiteSDK.CaptureBack : Swift.RawRepresentable {}
 extension IDentityLiteSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Equatable {}
 extension IDentityLiteSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.Hashable {}
 extension IDentityLiteSDK.AdditionalCustomerCommonData.PostDataAPIRequired : Swift.RawRepresentable {}
