@@ -50,7 +50,7 @@
 		</data>
 		<key>IDCapture.storyboardc/S4b-Vl-owe-view-UwX-jU-9r5.nib</key>
 		<data>
-		WHdYO6FSnGaIvc6mgQIoAVnUFv4=
+		wUu4YtY8am5N4QP21bOQIhNGtbI=
 		</data>
 		<key>IDCapture.storyboardc/SelectCountryTableViewController.nib</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		01xB/ZvFdZ+owo6cRPZIgsLEcjs=
+		Ou9IB9l2V9qDMvTFV4U5d+QwrkI=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WDEtNV2cSPtKGMZKfKxNmm006E0=
+		qZ39VtAA0MIqcCkizUakx9zymKA=
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		032Ie+ZaU0lceK5ks5p9fNZ7YlM=
+		VV270BMAZiN+MMwS2LdWczZqLyE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NWCMpbn3L38Prupp1ENEah/c2yKSL1mkKKOs9oF3BKo=
+			L9X06SxObIUcli/S/ttjD9Zfze3ANssEzu5AEC81KcU=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/SelectCountryTableViewController.nib</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0rWMtjiak6mAWE74xMgGAXbTGBcgtOw7sg00wiK0gXI=
+			yrvrjw+FE+8bCwfqw6VjRQS7zRy8BpWAcbuamfWhPzk=
 			</data>
 		</dict>
 		<key>Modules/IDCaptureLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -254,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WWlNmnMIT+4SOlutJK4KgBY36vzqAXnbw09K+E22f0=
+			bhqzyAUyxJPsoY3CFBmUQTZSDhxKaKJk9oh/9gRZ6sA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

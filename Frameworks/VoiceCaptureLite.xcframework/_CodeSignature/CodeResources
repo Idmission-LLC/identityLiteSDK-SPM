@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/VoiceCaptureLite.framework/Info.plist</key>
 		<data>
-		8FCoSScq24NwsQdii0PCq2CUYj8=
+		jfQ3kmhF+RlbjCuVhm1Xf+atQQI=
 		</data>
 		<key>ios-arm64/VoiceCaptureLite.framework/Modules/VoiceCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>ios-arm64/VoiceCaptureLite.framework/VoiceCaptureLite</key>
 		<data>
-		bIkVtGee0HkL4pwj28LFdiwAUPU=
+		ACvQeJLQECyDUQyJq0Jap5++ZMM=
 		</data>
 		<key>ios-arm64/VoiceCaptureLite.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tu65NJF5tM3gCawQKPfCM9Jn1Jg=
+		5ovDNzBQhN1sQ662VwnxjT4Lezs=
 		</data>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		XCpTbBJnHgN7SnX/6FktsH1/5jI=
+		jz/9cFSZRrdaFDycX1twSt1JX68=
 		</data>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureLite</key>
 		<data>
-		ryKbGn3GQjeVM3vsXQc4SqySrxg=
+		2w/G4a41IMN/DJVqzG/95AT9lpg=
 		</data>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/Relocations/aarch64/VoiceCaptureLite.yml</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/Info.plist</key>
 		<data>
-		XwfzBKk7KK7ndSTqdzIecxdNeK4=
+		Cu0VjKQ4hrqzagHDoH2Kg5zaK3E=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/Modules/VoiceCaptureLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,19 +114,19 @@
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/VoiceCaptureLite</key>
 		<data>
-		/GU0uq4cMMm8xey1fy2w/Jr9cVM=
+		w1zlJzPPvtQ8hiYOFGVgcnrqxEs=
 		</data>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/_CodeSignature/CodeResources</key>
 		<data>
-		u6cxBmyP2GMTRYjLwyDzI4yCJxg=
+		ONVSGpS43blg2tLWpPIyq2AYrSQ=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		XCpTbBJnHgN7SnX/6FktsH1/5jI=
+		jz/9cFSZRrdaFDycX1twSt1JX68=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureLite</key>
 		<data>
-		ou4gsaC8ZDzoOhDCb836c6KbzQQ=
+		0U3q8/SkYCrKQFTs0Ey6Bgi1Hyc=
 		</data>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/Relocations/x86_64/VoiceCaptureLite.yml</key>
 		<data>
@@ -153,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQNXJxZYiQxI0S7cADN3yl1cInQS5X+c4PMLTMbTnw8=
+			v+ATQVLZpn15YyOUn+vi7JTHZALY1oooF3r8SSIB+eQ=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureLite.framework/Modules/VoiceCaptureLite.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -216,28 +216,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ZaeHaDsqIzA0xRlP4jR0el4gpxEDTyb7SYVhh9/3jw=
+			3eXVXHVxLZWbRLK5cBFyKkkhERdzesfaLFi569M/DXs=
 			</data>
 		</dict>
 		<key>ios-arm64/VoiceCaptureLite.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5i238oDKcy0rG8WH5u/skkzWOGDhcNi9Wwp/dMYyrqM=
+			fQ1ADwmIfWK6I275hJ4fHRneBykpxPbr3uGTtyjh2Uk=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQyYoPNnzh9SXKukEaltNxiQialtN/JJIPBTShu1MwA=
+			Rkz1ZZEW/2P/JV3OIEVCE0doSe5EMRZS4txv+1FoyRw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureLite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yl53uPyGw4v5gCoedavzFNHNc/eHfAILzEuCyX8Yn+k=
+			yXPc/aUSfl5/q9/VGbfGTSKbNu0R+U+3DdSS7k7Ghpo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/Relocations/aarch64/VoiceCaptureLite.yml</key>
@@ -265,7 +265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1C0erZ//uMrLsW/bv+2fIJC5MdSpfAXnPlRigf6U9zY=
+			1WG4NJH0NmXLkouAFpJJyU7ewnh3VhZfFFaOeaR8qao=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/Modules/VoiceCaptureLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -328,28 +328,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eaPwywSGSmMnF+L+n4Daj7WoBAyOxgLSJcACyyr5dVI=
+			hCMLquKpQRvRwY/1hHlQSS//nAbDxG+IoYffz+UT4ns=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/VoiceCaptureLite.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uO5gFOsN9YIq37NEcUnmo0MVLzqdVgh5Wj3H+Hf2iMQ=
+			Nm6igZ2xo20AwRJooWFdXOzQVPFEWM1bYnQr1OzR7rk=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQyYoPNnzh9SXKukEaltNxiQialtN/JJIPBTShu1MwA=
+			Rkz1ZZEW/2P/JV3OIEVCE0doSe5EMRZS4txv+1FoyRw=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/DWARF/VoiceCaptureLite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7/KHIxBhnZf2y3nOSCUzWYbWCZUcwaP0Nmf264UJHlw=
+			3TiMN9cP7m92FSGOO708qiCmeRZpRqAb/7I/0GAbx3U=
 			</data>
 		</dict>
 		<key>ios-x86_64-simulator/dSYMs/VoiceCaptureLite.framework.dSYM/Contents/Resources/Relocations/x86_64/VoiceCaptureLite.yml</key>

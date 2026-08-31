@@ -2,8 +2,8 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/amold/Library/Developer/Xcode/DerivedData/idmissioniossdk-lite/Build/Products/Release-iphonesimulator/SelfieCaptureLite.framework/SelfieCaptureLite'
 relocations:
-  - { offset: 0x858A6, size: 0x8, addend: 0x0, symName: _SelfieCaptureLiteVersionString, symObjAddr: 0x0, symBinAddr: 0x2DA10, symSize: 0x0 }
-  - { offset: 0x858DB, size: 0x8, addend: 0x0, symName: _SelfieCaptureLiteVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2DA48, symSize: 0x0 }
+  - { offset: 0x858A6, size: 0x8, addend: 0x0, symName: _SelfieCaptureLiteVersionString, symObjAddr: 0x0, symBinAddr: 0x2DA20, symSize: 0x0 }
+  - { offset: 0x858DB, size: 0x8, addend: 0x0, symName: _SelfieCaptureLiteVersionNumber, symObjAddr: 0x38, symBinAddr: 0x2DA58, symSize: 0x0 }
   - { offset: 0x85D16, size: 0x8, addend: 0x0, symName: '_$s17SelfieCaptureLite0aB21PreviewViewControllerCfETo', symObjAddr: 0x14D0, symBinAddr: 0x2AF0, symSize: 0x90 }
   - { offset: 0x85D45, size: 0x8, addend: 0x0, symName: '_$s17SelfieCaptureLite0aB21PreviewViewControllerCMU', symObjAddr: 0x1560, symBinAddr: 0x2B80, symSize: 0x10 }
   - { offset: 0x85D59, size: 0x8, addend: 0x0, symName: '_$s17SelfieCaptureLite0aB21PreviewViewControllerCMa', symObjAddr: 0x1570, symBinAddr: 0x2B90, symSize: 0x30 }
