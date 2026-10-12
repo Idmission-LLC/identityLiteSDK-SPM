@@ -5,11 +5,12 @@ set -e
 
 # Validate input
 if [ -z "$1" ]; then
-  echo "❌ Usage: $0 <SDK_VERSION>"
+  echo "❌ Usage: $0 <SDK_VERSION> [TAG_VERSION]"
   exit 1
 fi
 
 SDK_VERSION=$1
+TAG_VERSION=${2:-$SDK_VERSION}   # defaults to SDK_VERSION if not given
 
 cd "$(dirname "$0")"   # go to identitymediumsdk2.0/
 
@@ -22,23 +23,27 @@ cd "$(dirname "$0")"   # go to identitymediumsdk2.0/
 # fi
 
 # Check if tag already exists
-if git rev-parse "$SDK_VERSION" >/dev/null 2>&1; then
-  echo "❌ Tag '$SDK_VERSION' already exists. Please choose a different version."
+if git rev-parse "$TAG_VERSION" >/dev/null 2>&1; then
+  echo "❌ Tag '$TAG_VERSION' already exists. Please choose a different version."
   exit 1
 fi
 
 # Commit changes
 echo "🚀 LiteSDK: Adding & committing changes…"
 git add .
-git commit -m "Updated SDK v${SDK_VERSION}"
+if git diff --cached --quiet; then
+  echo "ℹ️ LiteSDK: No changes to commit, skipping commit."
+else
+  git commit -m "Updated SDK v${SDK_VERSION}"
+fi
 
 # Push to remote master
 echo "⬆️ LiteSDK: Pushing to origin master…"
 git push origin main
 
 # Create & push tag
-echo "🏷️ LiteSDK: Creating and pushing tag '${SDK_VERSION}'…"
-git tag "${SDK_VERSION}"
-git push origin "${SDK_VERSION}"
+echo "🏷️ LiteSDK: Creating and pushing tag '${TAG_VERSION}'…"
+git tag "${TAG_VERSION}"
+git push origin "${TAG_VERSION}"
 
-echo "✅ Done! LiteSDK updated and tagged as '${SDK_VERSION}'."
+echo "✅ Done! LiteSDK updated and tagged as '${TAG_VERSION}'."

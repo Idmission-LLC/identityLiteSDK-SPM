@@ -1,6 +1,6 @@
 # IDentity Lite SDK for iOS
 
-[![Platform](https://img.shields.io/badge/platform-iOS%2015%2B-lightgrey.svg)](https://developer.apple.com)
+[![Platform](https://img.shields.io/badge/platform-iOS%2015.6%2B-lightgrey.svg)](https://developer.apple.com)
 [![Swift Tools](https://img.shields.io/badge/swift--tools-5.9-orange.svg)](https://swift.org)
 [![SPM](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://swift.org/package-manager)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
@@ -31,7 +31,6 @@ Choose Lite when app size matters more than on-device processing. This repositor
 - [Tracking initialization progress](#tracking-initialization-progress)
 - [Features](#features)
 - [Localization](#localization)
-- [Security controls](#security-controls)
 - [Diagnostics](#diagnostics)
 - [Framework sizes](#framework-sizes)
 - [Versioning and releases](#versioning-and-releases)
@@ -69,8 +68,8 @@ on the device versus on the IDmission platform, and therefore in binary size and
 
 | | |
 |:---|:---|
-| **Minimum deployment target** | iOS 15.0 |
-| **Xcode** | 15.0 or later |
+| **Minimum deployment target** | iOS 15.6 |
+| **Xcode** | 26.0 or later |
 | **Swift tools version** | 5.9 |
 | **Device architecture** | `arm64` |
 | **Simulator architecture** | `x86_64` only — see [Apple Silicon note](#apple-silicon-simulators) |
@@ -138,10 +137,25 @@ publishes newer versions.
    https://github.com/Idmission-LLC/identityLiteSDK-SPM
    ```
 
-3. Set **Dependency Rule** to **Up to Next Major Version** starting at `11.1.13`.
+3. Choose the **Dependency Rule** for the release you want to install:
+
+   | To install | Dependency Rule | Version |
+   |:---|:---|:---|
+   | **Current production release** (recommended) | Up to Next Major Version | `11.1.13` |
+   | **Pre-release** (release candidate, for testing) | Exact Version | The pre-release tag, e.g. `11.1.19-rc.1` |
+
 4. Click **Add Package**, then tick the products you need. `IDentityLiteSDK` is mandatory.
 
+> [!NOTE]
+> Pre-release tags have the form `MAJOR.MINOR.PATCH-rc.N` — for example `11.1.19-rc.1`, `11.1.19-rc.2`.
+> Swift Package Manager never resolves a pre-release from a version range, so **Up to Next Major Version**
+> keeps you on production releases. To try a pre-release, pin its exact tag, and switch back to the
+> production rule once the final version (for example `11.1.19`) is published. Do not ship pre-releases in
+> production apps.
+
 ### Package.swift
+
+To install the **current production release**:
 
 ```swift
 // swift-tools-version: 5.9
@@ -149,11 +163,11 @@ import PackageDescription
 
 let package = Package(
     name: "YourApp",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS("15.6")],
     dependencies: [
         .package(
             url: "https://github.com/Idmission-LLC/identityLiteSDK-SPM",
-            from: "11.1.13"
+            from: "11.1.13"        // 11.1.13 up to, but not including, 12.0.0
         )
     ],
     targets: [
@@ -170,6 +184,17 @@ let package = Package(
         )
     ]
 )
+```
+
+To install a **pre-release**, pin the dependency to its exact tag instead:
+
+```swift
+dependencies: [
+    .package(
+        url: "https://github.com/Idmission-LLC/identityLiteSDK-SPM",
+        exact: "11.1.19-rc.1"
+    )
+],
 ```
 
 ### Repository access
@@ -354,9 +379,6 @@ final class SplashViewController: UIViewController, InitializationDelegate {
 `faceBlendshapesDetectorTrainingModelLabel`, `passiveFaceTrainingModelLabel`, `faceMaskTrainingModelLabel`,
 `focusFaceTrainingModelLabel`, `docDetectionTrainingModelLabel`, `fingerprintDetectionTrainingModelLabel`,
 `focusTrainingModelLabel`.
-
-**Never reported by Lite:** `idCaptureTrainingModelLabel` and `classifierTrainingModelLabel` — ID capture
-models and document classification both run on the server for this flavour.
 
 **States:** `ok`, `paused`, `downloading`, `downloaded`, `downloadingFromS3`, `downloadedFromS3`, `error`.
 
@@ -950,36 +972,6 @@ Language.current = .es
 
 ---
 
-## Security controls
-
-The SDK detects screenshots and screen recording, and scans loaded images for hooking and instrumentation
-frameworks. Both protections are enabled by default once `initializeSDK` completes.
-
-```swift
-// Screenshot and screen-recording monitoring. Enabled by default after initializeSDK.
-IDentitySDK.setScreenSecurityEnabled(true)
-
-// The automatic blur overlay applied when screen recording is detected. Enabled by default.
-IDentitySDK.isScreenRecordingEnabled(true)
-
-// Names of your own security frameworks that would otherwise be flagged as
-// instrumentation. Set this BEFORE calling initializeSDK.
-IDentitySDK.allowedSecurityFrameworks = ["MyJailbreakDetector"]
-```
-
-> [!NOTE]
-> Despite the `is` prefix, `isScreenRecordingEnabled(_:)` is a setter, not a query — it takes a `Bool` and
-> returns nothing.
-
-If your app bundles a legitimate anti-tamper or jailbreak-detection framework, add its name to
-`allowedSecurityFrameworks` **before** initializing. The SDK's hook detection would otherwise flag it as a
-false positive.
-
-`setDevelopmentRelaxationSecret(_:)` relaxes selected runtime integrity checks for debugging. **Never ship an
-app that calls it.** Ask IDmission support before using it.
-
----
-
 ## Diagnostics
 
 ```swift
@@ -1018,8 +1010,11 @@ Required products total **22.2 MB**; every optional product adds to that. Omit `
 ## Versioning and releases
 
 Releases are published as Git tags of the form `MAJOR.MINOR.PATCH` — for example `11.1.13`. Pin with
-`from: "11.1.13"` to accept compatible updates, or pin `.exact("11.1.13")` if your release process requires a
+`from: "11.1.13"` to accept compatible updates, or pin `exact: "11.1.13"` if your release process requires a
 frozen dependency graph.
+
+Pre-releases are published as `MAJOR.MINOR.PATCH-rc.N` tags — for example `11.1.19-rc.1` — ahead of the
+matching production release. They are only resolved when pinned exactly; see [Installation](#installation).
 
 The three IDmission SPM packages are versioned in lockstep. If you integrate more than one, use the same
 version across all of them.
