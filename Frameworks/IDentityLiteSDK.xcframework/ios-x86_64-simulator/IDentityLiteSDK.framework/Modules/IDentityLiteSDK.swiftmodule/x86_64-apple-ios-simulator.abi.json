@@ -271312,14 +271312,14 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 125682,
+      "offset": 123989,
       "length": 20,
       "value": "\"idCaptureDebugData\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Identity Modules\/IDCapture\/IDCapture.swift",
       "kind": "StringLiteral",
-      "offset": 125753,
+      "offset": 124060,
       "length": 15,
       "value": "\"idCaptureMode\""
     },
@@ -271329,20 +271329,6 @@
       "offset": 8067,
       "length": 4,
       "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/Focus Detection\/FocusDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 3,
-      "value": "448"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/TensorFlow Modules\/Focus Detection\/FocusDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 415,
-      "length": 3,
-      "value": "448"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/Extensions\/TF\/UIKitExtension.swift",
@@ -272686,14 +272672,14 @@
       "kind": "StringLiteral",
       "offset": 2319,
       "length": 40,
-      "value": "\"docdetect-focus_2026-10-03_V150.tflite\""
+      "value": "\"docdetect-focus_2026-06-25_V129.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
       "kind": "StringLiteral",
       "offset": 2414,
       "length": 62,
-      "value": "\"docdetect-detection-et-al-features-ssd_2026-10-03_V22.tflite\""
+      "value": "\"docdetect-detection-et-al-features-ssd_2026-10-09_V23.tflite\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-2.0\/idmissioniossdk\/IDentitySDK\/IDentitySDK\/API Manager\/Downloaders\/Model Downloader\/ModelDownloader+Constants.swift",
