@@ -141,16 +141,16 @@ publishes newer versions.
 
    | To install | Dependency Rule | Version |
    |:---|:---|:---|
-   | **Current production release** (recommended) | Up to Next Major Version | `11.1.13` |
-   | **Pre-release** (release candidate, for testing) | Exact Version | The pre-release tag, e.g. `11.1.19-rc.1` |
+   | **Current production release** (recommended) | Up to Next Major Version | `11.1.19` |
+   | **Pre-release** (release candidate, for testing) | Exact Version | The pre-release tag, e.g. `X.Y.Z-rc.n` |
 
 4. Click **Add Package**, then tick the products you need. `IDentityLiteSDK` is mandatory.
 
 > [!NOTE]
-> Pre-release tags have the form `MAJOR.MINOR.PATCH-rc.N` — for example `11.1.19-rc.1`, `11.1.19-rc.2`.
+> Pre-release tags have the form `X.Y.Z-rc.n`, where `n` counts up from 1 for each release candidate.
 > Swift Package Manager never resolves a pre-release from a version range, so **Up to Next Major Version**
 > keeps you on production releases. To try a pre-release, pin its exact tag, and switch back to the
-> production rule once the final version (for example `11.1.19`) is published. Do not ship pre-releases in
+> production rule once the final `X.Y.Z` version is published. Do not ship pre-releases in
 > production apps.
 
 ### Package.swift
@@ -167,7 +167,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Idmission-LLC/identityLiteSDK-SPM",
-            from: "11.1.13"        // 11.1.13 up to, but not including, 12.0.0
+            from: "11.1.19"        // 11.1.19 up to, but not including, 12.0.0
         )
     ],
     targets: [
@@ -192,7 +192,7 @@ To install a **pre-release**, pin the dependency to its exact tag instead:
 dependencies: [
     .package(
         url: "https://github.com/Idmission-LLC/identityLiteSDK-SPM",
-        exact: "11.1.19-rc.1"
+        exact: "X.Y.Z-rc.n"      // replace with the pre-release tag
     )
 ],
 ```
@@ -989,44 +989,57 @@ transaction end to end.
 
 ## Framework sizes
 
-Measured at **11.1.13**. Uncompressed on-disk size of the `arm64` device slice. **Not** App Store download size — thinning and
+Measured at **11.1.19**. Uncompressed on-disk size of the `arm64` device slice. **Not** App Store download size — thinning and
 compression reduce the delivered figure substantially.
 
 | Framework | Size | Included with |
 |:---|---:|:---|
-| `IDentityLiteSDK` | 20.3 MB | `IDentityLiteSDK` |
-| `IDCaptureLite` | 0.8 MB | `IDentityLiteSDK` |
+| `IDentityLiteSDK` | 21.2 MB | `IDentityLiteSDK` |
+| `IDCaptureLite` | 0.9 MB | `IDentityLiteSDK` |
 | `SelfieCaptureLite` | 1.1 MB | `IDentityLiteSDK` |
 | `IDentityLiteModels` | 17.2 MB | `IDentityLiteModels` (optional) |
 | `FingerPrintCaptureLite` | 7.5 MB | `FingerPrintCaptureLiteSDK` (optional) |
 | `SignatureCaptureLite` | 0.3 MB | `SignatureCaptureLiteSDK` (optional) |
 | `VoiceCaptureLite` | 0.2 MB | `VoiceCaptureLiteSDK` (optional) |
 
-Required products total **22.2 MB**; every optional product adds to that. Omit `IDentityLiteModels` to save
+Required products total **23.2 MB**; every optional product adds to that. Omit `IDentityLiteModels` to save
 17.2 MB of app binary at the cost of a model download on first run.
 
 ---
 
 ## Versioning and releases
 
-Releases are published as Git tags of the form `MAJOR.MINOR.PATCH` — for example `11.1.13`. Pin with
-`from: "11.1.13"` to accept compatible updates, or pin `exact: "11.1.13"` if your release process requires a
+Releases are published as Git tags of the form `MAJOR.MINOR.PATCH` — for example `11.1.19`. Pin with
+`from: "11.1.19"` to accept compatible updates, or pin `exact: "11.1.19"` if your release process requires a
 frozen dependency graph.
 
-Pre-releases are published as `MAJOR.MINOR.PATCH-rc.N` tags — for example `11.1.19-rc.1` — ahead of the
-matching production release. They are only resolved when pinned exactly; see [Installation](#installation).
+Pre-releases are published as `X.Y.Z-rc.n` tags ahead of the matching `X.Y.Z` production release.
+Each new release candidate increments `n`. They are only resolved when pinned exactly; see [Installation](#installation).
 
 The three IDmission SPM packages are versioned in lockstep. If you integrate more than one, use the same
 version across all of them.
 
 ### Release notes
 
-#### 11.1.13
-- Added customizable properties.
-- Updated DocumentDetect model with ID back-side prediction.
-- Reduced overall SDK package size.
-- Introduced a timeout timer for capture to improve user flow and prevent indefinite waiting.
-- Added support for separate front and back ID capture flow for improved control and user experience.
+#### 11.1.19 (22 October 2026)
+- **Dynamic ID Capture & Barcode Handling:** Enabled flexible two-sided ID capture that automatically detects the front and back of an ID in any order, while seamlessly processing barcode data on either side.
+- **Dynamic ID Orientation & Auto-Correction:** Introduced a `.dynamic` capture mode that automatically adapts capture guidelines for horizontal or vertical IDs in real time and automatically rotates the final captured image to an upright orientation.
+- **Swift Package Manager (SPM) Support (iOS):** Added SPM integration support for the Medium SDK. Lite and Liveness already support SPM.
+
+#### 11.1.13 (23 July 2026)
+- Added a maximum retry limit for ID and selfie capture.
+- Added a conditional ID success preview screen.
+- Added a conditional selfie success preview screen.
+- Added barcode cropping support.
+- Added a barcode recovery flow.
+- Added on-device AAMVA parsing.
+- Added support for mandatory geolocation enforcement.
+- Added support for vertical ID capture orientation.
+- Implemented image sequence animations for the Vertical ID capture instruction screen.
+- Implemented image sequence animations for the ID capture instruction screen.
+- Added model availability checks before launching Selfie Capture and ID Capture workflows. Users are now presented with clear error messages if the required models have not been downloaded.
+- Added support for Swift Package Manager (SPM), enabling seamless integration of LiteSDK and LivenessSDK.
+- Updated the SDK initialization endpoint.
 
 ---
 
