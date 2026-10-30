@@ -1,4 +1,0 @@
-framework module IDCaptureLite {
-  header "IDCaptureLite-Swift.h"
-  requires objc
-}
